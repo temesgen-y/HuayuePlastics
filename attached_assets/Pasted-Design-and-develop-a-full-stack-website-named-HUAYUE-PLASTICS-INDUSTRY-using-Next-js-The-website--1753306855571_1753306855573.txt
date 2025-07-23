@@ -1,0 +1,93 @@
+Design and develop a full-stack website named "HUAYUE PLASTICS INDUSTRY" using Next.js. The website must be fully responsive, locally runnable (npm run dev), and deployable to both Vercel and CPanel (via next export or compatible Node.js bundling).
+
+🖥️ Pages & Structure:
+
+Home
+
+Products (Dropdown with: Huayue, Eider)
+
+About Us
+
+Agency Policy
+
+News
+
+Contact Us
+
+Admin Dashboard (/admin route)
+
+📁 Folder Structure Requirements:
+
+bash
+Copy
+Edit
+/app                  → Next.js app directory
+/components           → Modular UI components (Navbar, Footer, Forms, Layout, etc.)
+/public/images        → Logos and image assets
+/lib                  → Utility functions (e.g., Telegram, auth, hashing)
+/api                  → API route handlers (Contact, Auth, Messages)
+🎨 UI/UX Design:
+
+Use a green, white, and black color palette consistently across all pages
+
+Design must be fully responsive (mobile, tablet, desktop)
+
+Modular components for:
+
+Layout
+
+Navbar (with dropdown)
+
+Footer
+
+Contact form
+
+Optional but preferred: smooth loading indicators or page transitions
+
+🔍 SEO & Head Tags:
+
+Use <Head> in each page for:
+
+SEO-friendly titles & meta descriptions
+
+Open Graph (og:title, og:image, etc.) for social sharing
+
+📬 Contact Form Functionality:
+
+Required fields: Name, Email, Phone, Message
+
+On submit:
+
+Save submission to backend database
+
+Display in Admin Dashboard
+
+Forward all form data instantly to Telegram
+
+Telegram Bot Integration:
+
+Bot Token: 7588540195:AAFvF4phJg8agz1xcVEmkGxbLXvldOZAXh8
+
+Chat ID: -1002686029268
+
+🔒 Admin Dashboard (/admin):
+
+Secure login via email & password
+
+Store credentials securely using bcrypt-hashed passwords
+
+Password reset via email OTP or reset link
+
+View all Contact Us messages in a Message Center
+
+Implement CSRF protection and input sanitization
+
+🚀 Deployment Targets:
+
+Local development using: npm run dev
+
+Vercel deployment: ready with vercel.json if needed
+
+CPanel deployment: compatible via next export or Node.js server integration
+
+Ensure the project is built with clean, scalable, and production-ready code. Use TypeScript if possible for type safety.
