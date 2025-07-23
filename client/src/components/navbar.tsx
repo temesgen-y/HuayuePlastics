@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Menu, ChevronDown, X } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import logoImage from "@assets/huayue-logo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -37,11 +38,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="flex-shrink-0">
-              <div className="text-2xl font-bold text-primary-green">
-                HUAYUE
-                <span className="text-neutral-dark font-normal ml-1">PLASTICS</span>
-              </div>
-              <div className="text-xs text-neutral-gray tracking-wider">INDUSTRY</div>
+              <img 
+                src={logoImage} 
+                alt="Huayue - Look forward to the future" 
+                className="h-12 w-auto"
+              />
             </div>
           </Link>
           
