@@ -89,17 +89,19 @@ export default function AboutPage() {
       title="About Us - Huayue Plastics Industry"
       description="Learn about Huayue Group's 25+ year journey as a leading Asian plastic packaging manufacturer. Discover our facilities, certifications, and commitment to sustainability."
     >
-      {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-green to-secondary-green text-white">
+      {/* Header with Logo */}
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <div className="mb-8">
+            <img
+              src="/attached_assets/huayue-logo.png"
+              alt="Huayue Plastics Industry Logo"
+              className="mx-auto h-24 w-auto"
+            />
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
             About Huayue Group
           </h1>
-          <p className="text-xl text-white max-w-3xl mx-auto font-medium">
-            25+ years of excellence in plastic packaging manufacturing, serving
-            over 50 countries worldwide with innovative and sustainable
-            solutions.
-          </p>
         </div>
       </section>
 
