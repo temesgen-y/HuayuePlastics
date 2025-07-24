@@ -1,6 +1,6 @@
 import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart, ArrowRight } from "lucide-react";
+import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart, ArrowRight, Star, Lightbulb, Shield, Leaf } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -260,6 +260,85 @@ export default function AboutPage() {
                 </button>
               </div>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Quality Statement */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <p className="text-lg text-neutral-gray max-w-4xl mx-auto">
+              Both product lines meet international quality standards and are manufactured in our state-of-the-art facility in Kombolcha, Ethiopia
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Core Values */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
+              Our Core Values
+            </h2>
+            <p className="text-lg text-neutral-gray max-w-2xl mx-auto">
+              The principles that guide our operations and decisions
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Excellence */}
+            <div className="text-center">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                <Star className="text-green-600 text-2xl" />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-4">
+                Excellence
+              </h3>
+              <p className="text-neutral-gray leading-relaxed">
+                We strive for excellence in everything we do, from product quality to customer service.
+              </p>
+            </div>
+
+            {/* Innovation */}
+            <div className="text-center">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                <Lightbulb className="text-blue-600 text-2xl" />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-4">
+                Innovation
+              </h3>
+              <p className="text-neutral-gray leading-relaxed">
+                We continuously seek new ways to improve our products and processes.
+              </p>
+            </div>
+
+            {/* Integrity */}
+            <div className="text-center">
+              <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                <Shield className="text-purple-600 text-2xl" />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-4">
+                Integrity
+              </h3>
+              <p className="text-neutral-gray leading-relaxed">
+                We conduct business ethically and transparently, building trust with all stakeholders.
+              </p>
+            </div>
+
+            {/* Sustainability */}
+            <div className="text-center">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                <Leaf className="text-green-600 text-2xl" />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-4">
+                Sustainability
+              </h3>
+              <p className="text-neutral-gray leading-relaxed">
+                We are committed to environmentally responsible manufacturing and operations.
+              </p>
+            </div>
           </div>
         </div>
       </section>
