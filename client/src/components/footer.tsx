@@ -1,5 +1,6 @@
 import { Link } from "wouter";
-import { Facebook, Twitter, Linkedin, Youtube, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Youtube, Instagram, Send } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 import logoImage from "@assets/huayue-logo.png";
 
 export default function Footer() {
@@ -20,21 +21,27 @@ export default function Footer() {
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
               Leading manufacturer of high-quality industrial pipes and fittings serving global infrastructure projects. Your trusted partner for reliable, innovative pipe solutions across oil, gas, water, and industrial sectors.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+            <div className="flex flex-wrap gap-4">
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Twitter">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="YouTube">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Facebook">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Instagram">
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="TikTok">
+                <SiTiktok className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Telegram">
+                <Send className="h-5 w-5" />
               </a>
             </div>
           </div>
