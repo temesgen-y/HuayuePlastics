@@ -1,6 +1,6 @@
 import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart } from "lucide-react";
+import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart, ArrowRight } from "lucide-react";
 
 export default function AboutPage() {
   return (
