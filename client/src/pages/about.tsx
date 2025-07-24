@@ -467,6 +467,85 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Leadership Team */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
+              Leadership Team
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-12">
+            {/* Alemayehu Tadesse */}
+            <div className="text-center">
+              <div className="relative mb-6">
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200">
+                  <img
+                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+                    alt="Alemayehu Tadesse - Chief Executive Officer"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-2">
+                Alemayehu Tadesse
+              </h3>
+              <p className="text-primary-green font-medium mb-4">
+                Chief Executive Officer
+              </p>
+              <p className="text-neutral-gray leading-relaxed">
+                25+ years in industrial manufacturing and global business development.
+              </p>
+            </div>
+
+            {/* Meron Habtamu */}
+            <div className="text-center">
+              <div className="relative mb-6">
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200">
+                  <img
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+                    alt="Meron Habtamu - Chief Technology Officer"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-2">
+                Meron Habtamu
+              </h3>
+              <p className="text-primary-green font-medium mb-4">
+                Chief Technology Officer
+              </p>
+              <p className="text-neutral-gray leading-relaxed">
+                Expert in materials engineering and product innovation with 20+ years experience.
+              </p>
+            </div>
+
+            {/* Dawit Kebede */}
+            <div className="text-center">
+              <div className="relative mb-6">
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200">
+                  <img
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+                    alt="Dawit Kebede - Chief Operations Officer"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-2">
+                Dawit Kebede
+              </h3>
+              <p className="text-primary-green font-medium mb-4">
+                Chief Operations Officer
+              </p>
+              <p className="text-neutral-gray leading-relaxed">
+                Operations excellence and supply chain optimization specialist with global expertise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Global Operations */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
