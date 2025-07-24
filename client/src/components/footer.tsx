@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Facebook, Twitter, Linkedin } from "lucide-react";
+import logoImage from "@assets/huayue-logo.png";
 
 export default function Footer() {
   return (
@@ -8,11 +9,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="text-2xl font-bold text-white mb-2">
-              HUAYUE
-              <span className="text-gray-300 font-normal ml-1">PLASTICS</span>
+            <div className="mb-6">
+              <img 
+                src={logoImage} 
+                alt="Huayue Plastics Industry - Look forward to the future" 
+                className="h-16 w-auto"
+              />
             </div>
-            <div className="text-sm text-gray-400 tracking-wider mb-4">INDUSTRY</div>
+            <div className="text-lg font-semibold text-white mb-4">PLASTICS INDUSTRY</div>
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
               Leading Asian plastic packaging manufacturer with 25+ years of excellence in sustainable packaging solutions.
             </p>
