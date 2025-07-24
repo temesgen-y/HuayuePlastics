@@ -2,7 +2,7 @@ import Layout from "@/components/layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf, Users, Headphones, MapPin, Settings } from "lucide-react";
+import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf, Users, Headphones, MapPin, Settings, Shield, Zap, Package, DollarSign, Globe, Wrench } from "lucide-react";
 import HeroSlider from "@/components/hero-slider";
 
 export default function HomePage() {
@@ -93,6 +93,86 @@ export default function HomePage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose HUAYUE Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-neutral-dark mb-4">Why Choose HUAYUE PLASTICS INDUSTRY</h2>
+            <p className="text-lg text-neutral-gray max-w-2xl mx-auto">Key advantages that set us apart from the competition</p>
+          </div>
+
+          {/* Features Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+            {/* Premium Quality */}
+            <div className="text-center group">
+              <div className="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-green/20 transition-colors duration-300">
+                <Shield className="w-8 h-8 text-primary-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-neutral-dark mb-4">Premium Quality:</h3>
+              <p className="text-neutral-gray leading-relaxed">
+                Manufactured using state-of-the-art technology with strict quality control.
+              </p>
+            </div>
+
+            {/* Reliable Performance */}
+            <div className="text-center group">
+              <div className="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-green/20 transition-colors duration-300">
+                <Zap className="w-8 h-8 text-primary-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-neutral-dark mb-4">Reliable Performance</h3>
+              <p className="text-neutral-gray leading-relaxed">
+                High durability and resistance against wear and tear.
+              </p>
+            </div>
+
+            {/* Comprehensive Product Range */}
+            <div className="text-center group">
+              <div className="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-green/20 transition-colors duration-300">
+                <Package className="w-8 h-8 text-primary-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-neutral-dark mb-4">Comprehensive Product Range:</h3>
+              <p className="text-neutral-gray leading-relaxed">
+                Covering all plumbing needs from piping to fittings and valves.
+              </p>
+            </div>
+
+            {/* Cost-Effective Solutions */}
+            <div className="text-center group">
+              <div className="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-green/20 transition-colors duration-300">
+                <DollarSign className="w-8 h-8 text-primary-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-neutral-dark mb-4">Cost-Effective Solutions:</h3>
+              <p className="text-neutral-gray leading-relaxed">
+                Long-lasting materials reduce maintenance and replacement costs.
+              </p>
+            </div>
+
+            {/* Eco-Friendly Materials */}
+            <div className="text-center group">
+              <div className="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-green/20 transition-colors duration-300">
+                <Globe className="w-8 h-8 text-primary-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-neutral-dark mb-4">Eco-Friendly Materials:</h3>
+              <p className="text-neutral-gray leading-relaxed">
+                Safe for potable water and environmentally sustainable.
+              </p>
+            </div>
+
+            {/* Excellent Customer Support */}
+            <div className="text-center group">
+              <div className="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-green/20 transition-colors duration-300">
+                <Wrench className="w-8 h-8 text-primary-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-neutral-dark mb-4">Excellent Customer Support</h3>
+              <p className="text-neutral-gray leading-relaxed">
+                A dedicated team for technical assistance and sales inquiries.
+              </p>
             </div>
           </div>
         </div>
