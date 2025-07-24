@@ -160,6 +160,110 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Our Product Lines */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
+              Our Product Lines
+            </h2>
+            <p className="text-lg text-neutral-gray max-w-4xl mx-auto">
+              Discover our comprehensive range of industrial piping solutions designed for various applications and industries.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* HUAYUE Product */}
+            <Card className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-200">
+              <div className="p-8">
+                <div className="mb-8">
+                  <img
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80"
+                    alt="HUAYUE Heavy-duty Steel Pipes"
+                    className="w-full h-48 object-cover rounded-lg mb-6"
+                  />
+                  <div className="flex items-center mb-4">
+                    <CheckCircle className="w-6 h-6 text-primary-green mr-3" />
+                    <h3 className="text-2xl font-bold text-neutral-dark">HUAYUE</h3>
+                  </div>
+                  <p className="text-neutral-gray mb-6">
+                    Heavy-duty steel pipes and fittings designed for extreme industrial conditions.
+                  </p>
+                </div>
+
+                <div className="space-y-3 mb-8">
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">High-pressure applications</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">Corrosion resistant coating</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">20-50mm diameter range</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">PN16 & PN20 pressure ratings</span>
+                  </div>
+                </div>
+
+                <button className="bg-primary-green hover:bg-primary-green/90 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center">
+                  View HUAYUE Products
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </button>
+              </div>
+            </Card>
+
+            {/* EIDER Product */}
+            <Card className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-200">
+              <div className="p-8">
+                <div className="mb-8">
+                  <img
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80"
+                    alt="EIDER Precision Piping Systems"
+                    className="w-full h-48 object-cover rounded-lg mb-6"
+                  />
+                  <div className="flex items-center mb-4">
+                    <CheckCircle className="w-6 h-6 text-primary-green mr-3" />
+                    <h3 className="text-2xl font-bold text-neutral-dark">EIDER</h3>
+                  </div>
+                  <p className="text-neutral-gray mb-6">
+                    Precision-engineered piping systems for pharmaceutical and clean energy industries.
+                  </p>
+                </div>
+
+                <div className="space-y-3 mb-8">
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">Pharmaceutical-grade materials</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">Food-safe coatings</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">FDA approved components</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
+                    <span className="text-neutral-dark">Clean room certified</span>
+                  </div>
+                </div>
+
+                <button className="bg-primary-green hover:bg-primary-green/90 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center">
+                  View EIDER Products
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </button>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Global Operations */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
