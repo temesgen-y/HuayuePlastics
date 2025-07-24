@@ -57,6 +57,51 @@ const newsArticles = [
     category: "Sustainability",
     image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
     icon: Leaf
+  },
+  {
+    id: 7,
+    title: "Advanced Manufacturing Technology Integration",
+    excerpt: "Implementing cutting-edge automation and robotics systems in our Kombolicha facility to enhance production efficiency and maintain world-class quality standards.",
+    date: "June 10, 2024",
+    category: "Technology",
+    image: "https://images.unsplash.com/photo-1565088447-c32c3d5300d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    icon: Award
+  },
+  {
+    id: 8,
+    title: "Local Workforce Development Program",
+    excerpt: "Launching comprehensive training initiatives to develop local Ethiopian talent in advanced manufacturing techniques and industrial engineering skills.",
+    date: "May 25, 2024",
+    category: "Training",
+    image: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    icon: Globe
+  },
+  {
+    id: 9,
+    title: "Supply Chain Optimization in East Africa",
+    excerpt: "Establishing regional distribution networks across East Africa to improve delivery times and reduce costs for our industrial piping solutions.",
+    date: "April 18, 2024",
+    category: "Logistics",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    icon: Globe
+  },
+  {
+    id: 10,
+    title: "Green Energy Initiative for Industrial Operations",
+    excerpt: "Installing solar power systems and implementing renewable energy solutions to power our manufacturing operations and reduce environmental impact.",
+    date: "March 12, 2024",
+    category: "Green Energy",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    icon: Leaf
+  },
+  {
+    id: 11,
+    title: "Community Investment and Social Impact",
+    excerpt: "Supporting local community development through infrastructure projects, educational initiatives, and healthcare programs in the Kombolicha region.",
+    date: "February 8, 2024",
+    category: "Community",
+    image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    icon: Award
   }
 ];
 
