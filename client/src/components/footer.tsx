@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Facebook, Twitter, Linkedin } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Youtube, Instagram } from "lucide-react";
 import logoImage from "@assets/huayue-logo.png";
 
 export default function Footer() {
@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
             <div className="text-lg font-semibold text-white mb-4">PLASTICS INDUSTRY</div>
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
-              Leading Asian plastic packaging manufacturer with 25+ years of excellence in sustainable packaging solutions.
+              Leading manufacturer of high-quality industrial pipes and fittings serving global infrastructure projects. Your trusted partner for reliable, innovative pipe solutions across oil, gas, water, and industrial sectors.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
@@ -28,7 +28,13 @@ export default function Footer() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+                <Youtube className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
                 <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">
+                <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>
