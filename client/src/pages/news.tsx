@@ -10,52 +10,52 @@ const newsArticles = [
     excerpt: "We're proud to announce the successful expansion of our manufacturing facility in Kombolicha, Ethiopia. This major investment increases our production capacity by 40% and creates 200 new jobs in the region, reinforcing our commitment to sustainable industrial growth in Ethiopia.",
     date: "January 15, 2025",
     category: "Manufacturing",
-    image: "/api/placeholder/600/400", // Will be replaced with actual facility image
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     icon: Globe
   },
   {
     id: 2,
-    title: "Expanding Operations to Southeast Asia",
-    excerpt: "Cambodia facility expansion increases production capacity by 40%, strengthening our position in the ASEAN market and enhancing global supply chain resilience.",
+    title: "New Industrial Piping Solutions for Ethiopia Market",
+    excerpt: "Launching specialized piping systems designed for Ethiopian industrial applications, featuring enhanced durability and climate-resistant materials for local manufacturing needs.",
     date: "November 28, 2024",
-    category: "Business Expansion",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    category: "Product Innovation",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
     icon: Globe
   },
   {
     id: 3,
-    title: "ISO 13485 Certification Renewed",
-    excerpt: "Huayue Group successfully renews ISO 13485 certification, reinforcing our commitment to medical device packaging quality and safety standards.",
+    title: "Quality Standards Excellence in Ethiopian Manufacturing",
+    excerpt: "Our Kombolicha facility achieves international quality certifications, establishing new benchmarks for industrial manufacturing standards in Ethiopia.",
     date: "October 12, 2024",
     category: "Quality Assurance",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
     icon: Award
   },
   {
     id: 4,
-    title: "Partnership with Major E-commerce Platforms",
-    excerpt: "New strategic partnerships with leading e-commerce platforms drive significant growth in our express packaging segment, serving millions of online orders.",
+    title: "Strategic Partnerships with Ethiopian Industrial Groups",
+    excerpt: "Forming key alliances with local Ethiopian manufacturers to strengthen supply chains and support regional industrial development initiatives.",
     date: "September 18, 2024",
-    category: "Partnerships",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    category: "Partnerships", 
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
     icon: Globe
   },
   {
     id: 5,
-    title: "Research & Development Center Opens in Shanghai",
-    excerpt: "New R&D facility focuses on developing next-generation sustainable packaging materials and advanced manufacturing technologies.",
-    date: "August 22, 2024",
+    title: "Innovation Center Established in Kombolicha",
+    excerpt: "New research and development facility focuses on creating advanced piping solutions tailored for African industrial applications and climate conditions.",
+    date: "August 22, 2024", 
     category: "Innovation",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
     icon: Award
   },
   {
     id: 6,
-    title: "Environmental Impact Reduction Initiative",
-    excerpt: "Comprehensive sustainability program reduces manufacturing carbon footprint by 30% while maintaining production efficiency and quality standards.",
+    title: "Sustainable Manufacturing Practices in Ethiopia",
+    excerpt: "Implementing eco-friendly production methods and renewable energy systems at our Kombolicha facility to support Ethiopia's green development goals.",
     date: "July 15, 2024",
     category: "Sustainability",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
     icon: Leaf
   }
 ];
@@ -99,7 +99,7 @@ export default function NewsPage() {
               <div className="relative">
                 <div className="w-full h-64 lg:h-full bg-gray-200 rounded-lg overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+                    src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
                     alt="Huayue Manufacturing Facility in Ethiopia"
                     className="w-full h-full object-cover"
                   />
