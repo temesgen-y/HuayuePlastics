@@ -178,6 +178,110 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Our Product Lines Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-neutral-dark mb-6">Our Product Lines</h2>
+            <p className="text-lg text-neutral-gray max-w-4xl mx-auto leading-relaxed">
+              HUAYUE PLASTICS INDUSTRY P.L.C. specializes in producing high-quality PPR pipes and fittings 
+              designed for long-lasting and efficient plumbing solutions. Our products are suitable for a wide 
+              range of applications, including residential, commercial, and industrial water supply systems. 
+              Manufactured with the highest standards, our pipes and fittings ensure superior performance, 
+              ease of installation, and environmental safety.
+            </p>
+          </div>
+
+          {/* Product Grid */}
+          <div className="grid lg:grid-cols-2 gap-16">
+            {/* HUAYUE Product */}
+            <div className="bg-white rounded-lg shadow-lg p-8">
+              <div className="text-center mb-8">
+                <div className="w-64 h-48 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center">
+                  <img 
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" 
+                    alt="HUAYUE PPR Pipes and Fittings" 
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
+                <div className="flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-primary-green mr-2" />
+                  <h3 className="text-2xl font-bold text-neutral-dark">HUAYUE</h3>
+                </div>
+              </div>
+              
+              <p className="text-neutral-gray mb-6 leading-relaxed">
+                HUAYUE PP-R pipes and fittings designed for extreme industrial 
+                conditions. Built to withstand high pressure and corrosive environments 
+                with exceptional durability.
+              </p>
+
+              <div className="space-y-3 mb-8">
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-3 flex-shrink-0" />
+                  <span className="text-neutral-dark">High Durability: Resistant to corrosion, chemicals, and scaling ensuring longevity in various applications</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-3 flex-shrink-0" />
+                  <span className="text-neutral-dark">Heat Resistance</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-3 flex-shrink-0" />
+                  <span className="text-neutral-dark">Pressure Resistance</span>
+                </div>
+              </div>
+
+              <Button className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
+                Explore HUAYUE Products
+              </Button>
+            </div>
+
+            {/* EIDER Product */}
+            <div className="bg-white rounded-lg shadow-lg p-8">
+              <div className="text-center mb-8">
+                <div className="w-64 h-48 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center">
+                  <img 
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" 
+                    alt="EIDER PPR Piping Systems" 
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
+                <div className="flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-primary-green mr-2" />
+                  <h3 className="text-2xl font-bold text-neutral-dark">EIDER</h3>
+                </div>
+              </div>
+              
+              <p className="text-neutral-gray mb-6 leading-relaxed">
+                Precision-engineered piping systems for pharmaceutical, food 
+                processing, and clean energy applications. Designed for absolute purity 
+                and reliability.
+              </p>
+
+              <div className="space-y-3 mb-8">
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-3 flex-shrink-0" />
+                  <span className="text-neutral-dark">Lightweight & Easy Installation</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-3 flex-shrink-0" />
+                  <span className="text-neutral-dark">Pressure Resistance</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-3 flex-shrink-0" />
+                  <span className="text-neutral-dark">Low Thermal Conductivity-Reduces heat loss in hot water systems, improving energy efficiency</span>
+                </div>
+              </div>
+
+              <Button className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
+                Explore EIDER Systems
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Company Stats */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
