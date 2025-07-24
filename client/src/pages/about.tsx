@@ -1,8 +1,89 @@
 import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart, ArrowRight, Star, Lightbulb, Shield, Leaf } from "lucide-react";
+import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart, ArrowRight, Star, Lightbulb, Shield, Leaf, X } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export default function AboutPage() {
+  const [modalImage, setModalImage] = useState<string | null>(null);
+
+  // Handle escape key to close modal
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setModalImage(null);
+      }
+    };
+
+    if (modalImage) {
+      document.addEventListener("keydown", handleEscape);
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+      document.body.style.overflow = "unset";
+    };
+  }, [modalImage]);
+
+  const certifications = [
+    {
+      id: 1,
+      title: "50 Year Warranty",
+      description: "PP-R Built to Last, Guaranteed!",
+      image: "https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 2,
+      title: "Sole Authorized Distributor",
+      description: "WHEM Trading PLC Certificate",
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 3,
+      title: "ECAE Test Report - 63mm",
+      description: "PPR Pipe Testing Results",
+      image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 4,
+      title: "ISO 9001:2015",
+      description: "Quality Management System",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 5,
+      title: "ISO 14001",
+      description: "Environmental Management",
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 6,
+      title: "ISO 13485",
+      description: "Medical Devices Quality",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 7,
+      title: "CE Marking",
+      description: "European Conformity",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 8,
+      title: "FDA Approval",
+      description: "Food Grade Materials",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    },
+    {
+      id: 9,
+      title: "GMP Certificate",
+      description: "Good Manufacturing Practice",
+      image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+    }
+  ];
+
   return (
     <Layout
       title="About Us - Huayue Plastics Industry"
@@ -343,6 +424,49 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Our Certifications */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
+              Our Certifications
+            </h2>
+            <p className="text-lg text-neutral-gray max-w-2xl mx-auto">
+              Trusted quality, proven performance.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {certifications.map((cert) => (
+              <Card 
+                key={cert.id} 
+                className="hover:shadow-xl transition-shadow duration-200 cursor-pointer"
+                onClick={() => setModalImage(cert.image)}
+              >
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden rounded-t-lg">
+                    <img
+                      src={cert.image}
+                      alt={cert.title}
+                      className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-10 transition-all duration-300"></div>
+                  </div>
+                  <div className="p-6 text-center">
+                    <h3 className="text-lg font-semibold text-neutral-dark mb-2">
+                      {cert.title}
+                    </h3>
+                    <p className="text-sm text-neutral-gray">
+                      {cert.description}
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Global Operations */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -594,6 +718,30 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Image Modal */}
+      {modalImage && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+          onClick={() => setModalImage(null)}
+        >
+          <div className="relative max-w-4xl max-h-full">
+            <button
+              onClick={() => setModalImage(null)}
+              className="absolute -top-4 -right-4 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100 transition-colors duration-200 z-10"
+              aria-label="Close modal"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <img
+              src={modalImage}
+              alt="Certification"
+              className="max-w-full max-h-[90vh] object-contain rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      )}
     </Layout>
   );
 }
