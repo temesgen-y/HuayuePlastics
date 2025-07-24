@@ -51,30 +51,45 @@ export default function AboutPage() {
                 PN20 and PN16.
               </p>
 
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    2015 - Company Founded HUAYUE PLASTICS INDUSTRY P.L.C. established in Kombolcha, Ethiopia
-                  </span>
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
+                    1
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2015 - Company Founded</h4>
+                    <p className="text-neutral-gray">HUAYUE PLASTICS INDUSTRY P.L.C. established in Kombolcha, Ethiopia</p>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    4 manufacturing facilities across Asia
-                  </span>
+                
+                <div className="flex items-start">
+                  <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
+                    2
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2017 - EIDER Brand Launch</h4>
+                    <p className="text-neutral-gray">Introduced EIDER precision pipe systems for critical applications</p>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    Serving 50+ countries globally
-                  </span>
+                
+                <div className="flex items-start">
+                  <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
+                    3
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2020 - Capacity Expansion</h4>
+                    <p className="text-neutral-gray">Expanded manufacturing capabilities to include 20mm-50mm diameter range</p>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    70% export-focused business model
-                  </span>
+                
+                <div className="flex items-start">
+                  <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
+                    4
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2023 - Quality Certifications</h4>
+                    <p className="text-neutral-gray">Achieved ISO 9001:2015 and multiple international quality standards</p>
+                  </div>
                 </div>
               </div>
             </div>
