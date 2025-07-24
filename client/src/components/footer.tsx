@@ -1,5 +1,12 @@
 import { Link } from "wouter";
-import { Facebook, Twitter, Linkedin, Youtube, Instagram, Send } from "lucide-react";
+import {
+  Facebook,
+  Twitter,
+  Linkedin,
+  Youtube,
+  Instagram,
+  Send,
+} from "lucide-react";
 import { SiTiktok } from "react-icons/si";
 import logoImage from "@assets/huayue-logo.png";
 
@@ -11,36 +18,69 @@ export default function Footer() {
           {/* Company Info - Logo Section (Left Column) */}
           <div className="md:col-span-1 lg:col-span-1">
             <div className="mb-6">
-              <img 
-                src={logoImage} 
-                alt="Huayue Plastics Industry - Look forward to the future" 
+              <img
+                src={logoImage}
+                alt="Huayue Plastics Industry - Look forward to the future"
                 className="h-16 w-auto"
               />
             </div>
-            <div className="text-lg font-semibold text-white mb-4">PLASTICS INDUSTRY</div>
+            <div className="text-lg font-semibold text-white mb-4">
+              PLASTICS INDUSTRY
+            </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
-              Leading manufacturer of high-quality industrial pipes and fittings serving global infrastructure projects. Your trusted partner for reliable, innovative pipe solutions across oil, gas, water, and industrial sectors.
+              Leading manufacturer of high-quality industrial pipes and fittings
+              serving global infrastructure projects. Your trusted partner for
+              reliable, innovative pipe solutions across oil, gas, water, and
+              industrial sectors.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="LinkedIn">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="LinkedIn"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Twitter">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="Twitter"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="YouTube">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="YouTube"
+              >
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Facebook">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="Facebook"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Instagram">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="Instagram"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="TikTok">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="TikTok"
+              >
                 <SiTiktok className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors" title="Telegram">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+                title="Telegram"
+              >
                 <Send className="h-5 w-5" />
               </a>
             </div>
@@ -50,11 +90,46 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Products</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/products?category=medical" className="text-gray-300 hover:text-accent-green transition-colors">Medical Packaging</Link></li>
-              <li><Link href="/products?category=ecommerce" className="text-gray-300 hover:text-accent-green transition-colors">E-commerce Bags</Link></li>
-              <li><Link href="/products?category=food" className="text-gray-300 hover:text-accent-green transition-colors">Food Packaging</Link></li>
-              <li><Link href="/products?brand=eider" className="text-gray-300 hover:text-accent-green transition-colors">Biodegradable Solutions</Link></li>
-              <li><Link href="/products?category=retail" className="text-gray-300 hover:text-accent-green transition-colors">Retail Packaging</Link></li>
+              <li>
+                <Link
+                  href="/products?category=medical"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  EIDER Series
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products?category=ecommerce"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  HUAYUE Series
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products?category=food"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  Custom Solutions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products?brand=eider"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  Technical Specifications
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products?category=retail"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  Product Catalog
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -62,11 +137,46 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/about" className="text-gray-300 hover:text-accent-green transition-colors">About Us</Link></li>
-              <li><Link href="/news" className="text-gray-300 hover:text-accent-green transition-colors">News</Link></li>
-              <li><Link href="/agency-policy" className="text-gray-300 hover:text-accent-green transition-colors">Agency Policy</Link></li>
-              <li><a href="#" className="text-gray-300 hover:text-accent-green transition-colors">Careers</a></li>
-              <li><Link href="/admin/auth" className="text-gray-300 hover:text-accent-green transition-colors">Admin Portal</Link></li>
+              <li>
+                <Link
+                  href="/about"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/news"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  News
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/agency-policy"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  Agency Policy
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  Careers
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/admin/auth"
+                  className="text-gray-300 hover:text-accent-green transition-colors"
+                >
+                  Admin Portal
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -94,9 +204,24 @@ export default function Footer() {
               &copy; 2024 Huayue Plastics Industry. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-accent-green transition-colors">Quality Certificates</a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+              >
+                Terms of Service
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-accent-green transition-colors"
+              >
+                Quality Certificates
+              </a>
             </div>
           </div>
         </div>

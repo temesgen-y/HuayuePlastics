@@ -643,30 +643,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Company Stats */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary-green mb-2">25+</div>
-              <div className="text-neutral-gray font-medium">Years Experience</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary-green mb-2">4</div>
-              <div className="text-neutral-gray font-medium">Manufacturing Facilities</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary-green mb-2">50+</div>
-              <div className="text-neutral-gray font-medium">Countries Served</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary-green mb-2">300+</div>
-              <div className="text-neutral-gray font-medium">Employees</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* About Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
