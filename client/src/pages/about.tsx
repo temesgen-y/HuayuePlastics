@@ -95,7 +95,7 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             About Huayue Group
           </h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+          <p className="text-xl text-white max-w-3xl mx-auto font-medium">
             25+ years of excellence in plastic packaging manufacturing, serving
             over 50 countries worldwide with innovative and sustainable
             solutions.
