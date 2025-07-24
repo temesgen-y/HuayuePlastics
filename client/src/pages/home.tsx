@@ -232,8 +232,8 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <Button className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
-                Explore HUAYUE Products
+              <Button asChild className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
+                <Link href="/products?brand=huayue">Explore HUAYUE Products</Link>
               </Button>
             </div>
 
@@ -274,8 +274,8 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <Button className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
-                Explore EIDER Systems
+              <Button asChild className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
+                <Link href="/products?brand=eider">Explore EIDER Systems</Link>
               </Button>
             </div>
           </div>
