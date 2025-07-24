@@ -117,9 +117,7 @@ export default function ContactPage() {
                       <div className="font-medium text-neutral-dark">
                         Distribution Center
                       </div>
-                      <div className="text-neutral-gray">
-                        Addis Ababa Hub
-                      </div>
+                      <div className="text-neutral-gray">Addis Ababa Hub</div>
                     </div>
                   </div>
                 </div>
@@ -162,7 +160,8 @@ export default function ContactPage() {
               Find Us in Kombolicha, Ethiopia
             </h2>
             <p className="text-lg text-neutral-gray">
-              Located in the industrial heart of Kombolicha, our facility is easily accessible
+              Located in the industrial heart of Kombolicha, our facility is
+              easily accessible
             </p>
           </div>
 
@@ -185,17 +184,27 @@ export default function ContactPage() {
               <div className="flex items-center justify-center space-x-8">
                 <div className="text-center">
                   <MapPin className="h-8 w-8 text-primary-green mx-auto mb-2" />
-                  <h3 className="font-semibold text-neutral-dark">Main Office</h3>
-                  <p className="text-sm text-neutral-gray">Kombolicha Industrial Zone</p>
+                  <h3 className="font-semibold text-neutral-dark">
+                    Main Office
+                  </h3>
+                  <p className="text-sm text-neutral-gray">
+                    Kombolicha Industrial Zone
+                  </p>
                 </div>
                 <div className="text-center">
                   <Building className="h-8 w-8 text-primary-green mx-auto mb-2" />
-                  <h3 className="font-semibold text-neutral-dark">Production Plant</h3>
-                  <p className="text-sm text-neutral-gray">Manufacturing Facility</p>
+                  <h3 className="font-semibold text-neutral-dark">
+                    Production Plant
+                  </h3>
+                  <p className="text-sm text-neutral-gray">
+                    Manufacturing Facility
+                  </p>
                 </div>
                 <div className="text-center">
                   <Phone className="h-8 w-8 text-primary-green mx-auto mb-2" />
-                  <h3 className="font-semibold text-neutral-dark">Direct Line</h3>
+                  <h3 className="font-semibold text-neutral-dark">
+                    Direct Line
+                  </h3>
                   <p className="text-sm text-neutral-gray">+251 933 551 2345</p>
                 </div>
               </div>
@@ -207,9 +216,7 @@ export default function ContactPage() {
       {/* CTA Section */}
       <section className="py-20 bg-primary-green text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Start Your Project?
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Contact Us</h2>
           <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">
             Our experienced team is ready to help you find the perfect packaging
             solution. Contact us today for a personalized consultation and

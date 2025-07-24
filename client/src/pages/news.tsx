@@ -6,12 +6,12 @@ import { Calendar, ArrowRight, Award, Globe, Leaf } from "lucide-react";
 const newsArticles = [
   {
     id: 1,
-    title: "Huayue Launches New Biodegradable Packaging Line",
-    excerpt: "Our latest innovation in sustainable packaging solutions features advanced PLA+PBAT materials, setting new industry standards for environmental responsibility.",
-    date: "December 15, 2024",
-    category: "Sustainability",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-    icon: Leaf
+    title: "HUAYUE PLASTICS INDUSTRY Expands Manufacturing Capacity in Ethiopia",
+    excerpt: "We're proud to announce the successful expansion of our manufacturing facility in Kombolicha, Ethiopia. This major investment increases our production capacity by 40% and creates 200 new jobs in the region, reinforcing our commitment to sustainable industrial growth in Ethiopia.",
+    date: "January 15, 2025",
+    category: "Manufacturing",
+    image: "/api/placeholder/600/400", // Will be replaced with actual facility image
+    icon: Globe
   },
   {
     id: 2,
@@ -78,6 +78,63 @@ export default function NewsPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Stay informed about our latest developments, industry insights, and company milestones.
           </p>
+        </div>
+      </section>
+
+      {/* Latest News Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark mb-4">
+              Latest News
+            </h2>
+            <p className="text-lg text-neutral-gray max-w-3xl mx-auto">
+              Stay updated with the latest developments, innovations, and industry insights from Pipe Factory.
+            </p>
+          </div>
+
+          {/* Ethiopia Expansion News Card */}
+          <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-200 max-w-4xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-0">
+              <div className="relative">
+                <div className="w-full h-64 lg:h-full bg-gray-200 rounded-lg overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+                    alt="Huayue Manufacturing Facility in Ethiopia"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              
+              <CardContent className="p-8 lg:p-10 flex flex-col justify-center">
+                <div className="flex items-center mb-4">
+                  <Calendar className="text-neutral-gray w-4 h-4 mr-2" />
+                  <span className="text-sm text-neutral-gray">January 15, 2025</span>
+                </div>
+                
+                <h3 className="text-2xl lg:text-3xl font-bold text-neutral-dark mb-4">
+                  HUAYUE PLASTICS INDUSTRY Expands Manufacturing Capacity in Ethiopia
+                </h3>
+                
+                <p className="text-neutral-gray leading-relaxed mb-6">
+                  We're proud to announce the successful expansion of our manufacturing facility in Kombolicha, Ethiopia. This major investment increases our production capacity by 40% and creates 200 new jobs in the region, reinforcing our commitment to sustainable industrial growth in Ethiopia.
+                </p>
+                
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="bg-primary-green text-white px-3 py-1 rounded-full text-sm font-medium">
+                    Ethiopia
+                  </span>
+                  <span className="bg-secondary-green text-white px-3 py-1 rounded-full text-sm font-medium">
+                    Manufacturing
+                  </span>
+                </div>
+                
+                <Button className="bg-primary-green hover:bg-secondary-green text-white self-start">
+                  Read full article →
+                </Button>
+              </CardContent>
+            </div>
+          </Card>
         </div>
       </section>
 
