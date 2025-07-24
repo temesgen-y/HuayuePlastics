@@ -2,7 +2,7 @@ import Layout from "@/components/layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf } from "lucide-react";
+import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf, Users, Headphones, MapPin, Settings } from "lucide-react";
 import HeroSlider from "@/components/hero-slider";
 
 export default function HomePage() {
@@ -10,6 +10,93 @@ export default function HomePage() {
     <Layout>
       {/* Hero Slider */}
       <HeroSlider />
+
+      {/* Company Overview Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Left Content */}
+            <div>
+              <h2 className="text-4xl font-bold text-neutral-dark mb-8">HUAYUE PLASTICS INDUSTRY</h2>
+              
+              <div className="space-y-6 text-neutral-gray leading-relaxed">
+                <p>
+                  HUAYUE PLASTICS INDUSTRY P.L.C. produces two major product brands: 
+                  EIDER and HUAYUE PP-R pipes and fittings. The factory has the 
+                  capability to manufacture PP-R pipes and fittings ranging from 20mm to 
+                  50mm in diameter, with pressure ratings of PN20 and PN16.
+                </p>
+                
+                <p>
+                  Committed to quality and reliability, EIDER and HUAYUE PP-R products 
+                  comply with ISO 15874 standards and are manufactured using high-
+                  quality Korean-origin PP-R resin, ensuring superior strength, durability, 
+                  and safety for both hot and cold water applications. HUAYUE PLASTICS 
+                  INDUSTRY P.L.C. operates alongside its sister company, HUAYU Textile 
+                  Industry, within the same industrial compound, reinforcing its 
+                  commitment to excellence across multiple sectors.
+                </p>
+                
+                <p>
+                  HUAYUE PLASTICS INDUSTRY P.L.C. operates alongside its sister 
+                  company, HUAYU Textile Industry, within the same industrial compound, 
+                  reinforcing its commitment to excellence across multiple sectors.
+                </p>
+              </div>
+
+              {/* Features Grid */}
+              <div className="grid grid-cols-2 gap-6 mt-10">
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-primary-green rounded-full flex items-center justify-center">
+                    <CheckCircle className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="text-neutral-dark font-medium">ISO 15874 standards</span>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-primary-green rounded-full flex items-center justify-center">
+                    <Headphones className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="text-neutral-dark font-medium">24/7 Support</span>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-primary-green rounded-full flex items-center justify-center">
+                    <MapPin className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="text-neutral-dark font-medium">Regional delivery available across selected areas</span>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-primary-green rounded-full flex items-center justify-center">
+                    <Settings className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="text-neutral-dark font-medium">Custom Solutions</span>
+                </div>
+              </div>
+
+              {/* CTA Button */}
+              <div className="mt-10">
+                <Button asChild className="bg-primary-green hover:bg-primary-green/90 text-white px-8 py-3">
+                  <Link href="/about">Learn More About Us</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* Right Image */}
+            <div>
+              <div className="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
+                  alt="Huayue Plastics Manufacturing Facility" 
+                  className="rounded-lg shadow-xl w-full h-auto"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Company Stats */}
       <section className="py-16 bg-gray-50">
