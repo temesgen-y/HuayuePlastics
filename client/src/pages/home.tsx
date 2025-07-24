@@ -992,7 +992,7 @@ export default function HomePage() {
                 <ul className="text-neutral-gray space-y-2 mb-6">
                   <li>• Energy-efficient piping systems</li>
                   <li>• Lead-free and recyclable material</li>
-                  <li>• Low thermal conductivity</li>
+                  <li>• </li>
                   <li>• Eco-friendly options</li>
                 </ul>
                 <Button
@@ -1019,37 +1019,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-primary-green text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Partner with Asia's Leading Packaging Manufacturer?
-          </h2>
-          <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">
-            Join over 50 countries worldwide that trust Huayue Group for their
-            packaging needs. Get a custom quote for your project today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              asChild
-              size="lg"
-              className="bg-white text-primary-green hover:bg-gray-100 font-semibold"
-            >
-              <Link href="/contact">Get Quote Now</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary-green"
-            >
-              <Link href="/agency-policy">Partnership Program</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Ready to Elevate Your Industrial Piping - Footer CTA Section */}
+      {/* Ready to Elevate Your Industrial Piping CTA Section */}
       <section className="py-20 bg-primary-green text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
