@@ -55,11 +55,7 @@ export default function AboutPage() {
                 <div className="flex items-center">
                   <CheckCircle className="text-accent-green text-xl mr-3" />
                   <span className="text-neutral-dark font-medium">
-                    2015 - Company Founded HUAYUE{" "}
-                    <p>
-                      PLASTICS INDUSTRY P.L.C. established in Kombolcha,
-                      Ethiopia
-                    </p>
+                    2015 - Company Founded HUAYUE PLASTICS INDUSTRY P.L.C. established in Kombolcha, Ethiopia
                   </span>
                 </div>
                 <div className="flex items-center">
