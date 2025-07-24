@@ -497,6 +497,152 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* What Our Clients Say Section */}
+      <section className="py-20 bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-neutral-dark mb-4">What Our Clients Say</h2>
+            <p className="text-lg text-neutral-gray">Real experiences from industry leaders who trust our piping solutions</p>
+          </div>
+
+          {/* Testimonials Marquee */}
+          <div className="relative">
+            <div className="flex space-x-8 animate-marquee">
+              {/* First set of testimonials */}
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "HUAYUE pipes exceeded our expectations in both durability and delivery time. A reliable partner for industrial infrastructure projects."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    AG
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Amanuel Getachew</div>
+                    <div className="text-sm text-neutral-gray">Senior Engineer, Ethioinfra Solutions</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "The EIDER fittings were critical for maintaining clean standards in our pharmaceutical pipeline. Precision and reliability at its best."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    MT
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Dr. Meseret Taye</div>
+                    <div className="text-sm text-neutral-gray">Director of Operations, Medpharm Manufacturing</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "Excellent quality and on-time delivery. We've used HUAYUE products in several major construction projects across Africa—always with great results."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    MK
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Mulugeta Kebede</div>
+                    <div className="text-sm text-neutral-gray">Construction Manager, Pan-African Projects Group</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "Outstanding technical support and product consistency. HUAYUE has been our trusted supplier for water infrastructure projects nationwide."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    SA
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Solomon Assefa</div>
+                    <div className="text-sm text-neutral-gray">Project Director, National Water Works</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Duplicate set for seamless loop */}
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "HUAYUE pipes exceeded our expectations in both durability and delivery time. A reliable partner for industrial infrastructure projects."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    AG
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Amanuel Getachew</div>
+                    <div className="text-sm text-neutral-gray">Senior Engineer, Ethioinfra Solutions</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "The EIDER fittings were critical for maintaining clean standards in our pharmaceutical pipeline. Precision and reliability at its best."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    MT
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Dr. Meseret Taye</div>
+                    <div className="text-sm text-neutral-gray">Director of Operations, Medpharm Manufacturing</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "Excellent quality and on-time delivery. We've used HUAYUE products in several major construction projects across Africa—always with great results."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    MK
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Mulugeta Kebede</div>
+                    <div className="text-sm text-neutral-gray">Construction Manager, Pan-African Projects Group</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-8 min-w-[400px] shadow-sm">
+                <div className="text-6xl text-primary-green mb-4 font-serif">"</div>
+                <p className="text-neutral-gray mb-6 leading-relaxed text-lg">
+                  "Outstanding technical support and product consistency. HUAYUE has been our trusted supplier for water infrastructure projects nationwide."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    SA
+                  </div>
+                  <div>
+                    <div className="font-semibold text-neutral-dark">Solomon Assefa</div>
+                    <div className="text-sm text-neutral-gray">Project Director, National Water Works</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Company Stats */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
