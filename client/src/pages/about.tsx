@@ -1,6 +1,6 @@
 import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, MapPin, Users, Award, Globe } from "lucide-react";
+import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -104,6 +104,58 @@ export default function AboutPage() {
                 <div className="text-sm">Years of Excellence</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission, Vision, Values */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Mission */}
+            <Card className="text-center hover:shadow-xl transition-shadow duration-200">
+              <CardContent className="p-8">
+                <div className="bg-primary-green rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <Target className="text-white text-2xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-neutral-dark mb-6">
+                  Mission
+                </h3>
+                <p className="text-neutral-gray leading-relaxed">
+                  To deliver innovative, high-quality industrial pipe solutions that enable our customers to build safe, efficient, and sustainable infrastructure for global markets.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Vision */}
+            <Card className="text-center hover:shadow-xl transition-shadow duration-200">
+              <CardContent className="p-8">
+                <div className="bg-secondary-green rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <Eye className="text-white text-2xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-neutral-dark mb-6">
+                  Vision
+                </h3>
+                <p className="text-neutral-gray leading-relaxed">
+                  To be the leading industrial pipe manufacturer globally, recognized for innovation, sustainability, and unwavering commitment to customer success. Look forward to the future.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Values */}
+            <Card className="text-center hover:shadow-xl transition-shadow duration-200">
+              <CardContent className="p-8">
+                <div className="bg-accent-green rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <Heart className="text-white text-2xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-neutral-dark mb-6">
+                  Values
+                </h3>
+                <p className="text-neutral-gray leading-relaxed">
+                  Quality, integrity, innovation, and customer-centricity guide everything we do. We believe in building lasting partnerships.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
