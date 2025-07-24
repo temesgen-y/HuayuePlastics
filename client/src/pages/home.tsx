@@ -362,26 +362,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Ready to Elevate Your Industrial Piping CTA Section */}  
-      <section className="py-20 bg-primary-green text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Elevate Your Industrial Piping?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Contact our team of experts today to discuss your specific requirements and discover how our 
-            solutions can benefit your operations.
-          </p>
-          <Button
-            asChild
-            size="lg"
-            className="bg-white text-primary-green hover:bg-gray-100 font-semibold px-8 py-3"
-          >
-            <Link href="/contact">Get in Touch</Link>
-          </Button>
-        </div>
-      </section>
-
       {/* Our Quality Assurance Process Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1066,6 +1046,26 @@ export default function HomePage() {
               <Link href="/agency-policy">Partnership Program</Link>
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* Ready to Elevate Your Industrial Piping - Footer CTA Section */}
+      <section className="py-20 bg-primary-green text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Ready to Elevate Your Industrial Piping?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Contact our team of experts today to discuss your specific requirements and discover how our 
+            solutions can benefit your operations.
+          </p>
+          <Button
+            asChild
+            size="lg"
+            className="bg-white text-primary-green hover:bg-gray-100 font-semibold px-8 py-3"
+          >
+            <Link href="/contact">Get in Touch</Link>
+          </Button>
         </div>
       </section>
     </Layout>

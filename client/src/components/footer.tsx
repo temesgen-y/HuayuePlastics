@@ -185,11 +185,12 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3 text-sm">
               <div>
-                <div className="text-gray-300">Shanghai, China</div>
-                <div className="text-gray-400">No.228 ZhaiXing Rd</div>
+                <div className="text-gray-300">Woldia, Kombolicha</div>
+                <div className="text-gray-400">Near Industry Park</div>
               </div>
               <div>
-                <div className="text-gray-300">+86 21 5741 2345</div>
+                <div className="text-gray-300">+251 933 551 2345</div>
+                <div className="text-gray-300">+251 91 123 4567</div>
               </div>
               <div>
                 <div className="text-gray-300">info@huayueplastics.com</div>
