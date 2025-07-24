@@ -18,7 +18,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const contact = await storage.createContact(validatedData);
       
       // Send to Telegram
-      const telegramSent = await sendToTelegram(validatedData);
+      const telegramSent = await sendToTelegram(validatedData as any);
       
       if (!telegramSent) {
         console.warn('Failed to send contact form to Telegram');

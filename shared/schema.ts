@@ -18,16 +18,22 @@ export const contacts = pgTable("contacts", {
   isRead: boolean("is_read").default(false).notNull(),
 });
 
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
+export const insertUserSchema = createInsertSchema(users, {
+  username: z.string().min(1),
+  password: z.string().min(1),
+}).omit({
+  id: true,
 });
 
-export const insertContactSchema = createInsertSchema(contacts).pick({
-  name: true,
-  email: true,
-  phone: true,
-  message: true,
+export const insertContactSchema = createInsertSchema(contacts, {
+  name: z.string().min(1),
+  email: z.string().email(),
+  phone: z.string().min(1),
+  message: z.string().min(1),
+}).omit({
+  id: true,
+  createdAt: true,
+  isRead: true,
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;

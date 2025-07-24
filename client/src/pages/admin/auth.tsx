@@ -51,7 +51,7 @@ export default function AdminAuth() {
   }
 
   const onLogin = (data: LoginFormData) => {
-    loginMutation.mutate(data);
+    loginMutation.mutate(data as any);
   };
 
   const onRegister = (data: RegisterFormData) => {
