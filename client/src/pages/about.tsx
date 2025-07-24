@@ -32,7 +32,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-lg text-neutral-gray mb-6 leading-relaxed">
                 Established in 2015, HUAYUE PLASTICS INDUSTRY P.L.C. was founded
-                with a vision to support Ethiopia’s construction sector,
+                with a vision to support Ethiopia’s con struction sector,
                 particularly in water transportation solutions. Specializing in
                 the manufacturing of PP-R pipes and fittings, the company is
                 strategically located in Kombolcha, Ethiopia
@@ -55,8 +55,11 @@ export default function AboutPage() {
                 <div className="flex items-center">
                   <CheckCircle className="text-accent-green text-xl mr-3" />
                   <span className="text-neutral-dark font-medium">
-                    2015 - Company Founded HUAYUE PLASTICS INDUSTRY P.L.C.
-                    established in Kombolcha, Ethiopia
+                    2015 - Company Founded HUAYUE{" "}
+                    <p>
+                      PLASTICS INDUSTRY P.L.C. established in Kombolcha,
+                      Ethiopia
+                    </p>
                   </span>
                 </div>
                 <div className="flex items-center">
