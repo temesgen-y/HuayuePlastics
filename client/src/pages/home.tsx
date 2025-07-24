@@ -3,44 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf } from "lucide-react";
+import HeroSlider from "@/components/hero-slider";
 
 export default function HomePage() {
   return (
     <Layout>
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary-green to-secondary-green text-white py-20 lg:py-32">
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div 
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')",
-            backgroundSize: "cover",
-            backgroundPosition: "center"
-          }}
-        />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center lg:text-left lg:max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Leading Asian <span className="text-accent-green">Plastic Packaging</span> Manufacturer
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-              25+ years of excellence in plastic packaging solutions. Serving medical, e-commerce, and food industries globally with innovative, sustainable packaging.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button asChild className="bg-accent-green hover:bg-green-500 text-white font-semibold py-4 px-8">
-                <Link href="/products">Explore Products</Link>
-              </Button>
-              <Button 
-                asChild 
-                variant="outline" 
-                className="border-2 border-white text-white hover:bg-white hover:text-primary-green font-semibold py-4 px-8"
-              >
-                <Link href="/contact">Get Quote</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Hero Slider */}
+      <HeroSlider />
 
       {/* Company Stats */}
       <section className="py-16 bg-gray-50">

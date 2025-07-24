@@ -1,0 +1,71 @@
+Design the Home Page for the “HUAYUE PLASTICS INDUSTRY” website using Next.js and Tailwind CSS. The hero section should be a fullscreen, responsive slider (carousel) that captures the brand's modern, eco-conscious identity with the following specifications:
+
+🔑 Key Features:
+Full-width background image or video support (responsive and mobile-friendly)
+
+Text overlay per slide:
+
+Large headline (e.g., “INNOVATIVE SOLUTIONS”)
+
+Subtext or supporting line (e.g., “Delivering quality plastic products worldwide”)
+
+Call-to-Action (CTA) button (e.g., “View Products”, “Explore Now”) that links to /products
+
+Navigation arrows and dot indicators to slide between hero sections
+
+Auto-slide (optional) every 5–7 seconds with manual control
+
+Fade or sliding animation between slides for smooth transitions
+
+Accessible design with ARIA labels and proper alt text
+
+At least 8 high-quality background images from /public/images/home-slider/
+
+📂 File & Folder Setup:
+swift
+Copy
+Edit
+/components/HeroSlider.jsx       → Hero banner slider component
+/public/images/home-slider/      → Store 8+ high-quality .jpg or .webp images
+🖼️ Sample Image Names (placeholders):
+markdown
+Copy
+Edit
+1. innovation.jpg
+2. sustainability.jpg
+3. factory.jpg
+4. product-line.jpg
+5. packaging.jpg
+6. eco-friendly.jpg
+7. machinery.jpg
+8. global-reach.jpg
+🧩 Component Structure:
+tsx
+Copy
+Edit
+<HeroSlider>
+  <HeroSlide
+    image="/images/home-slider/innovation.jpg"
+    headline="INNOVATIVE SOLUTIONS"
+    subtext="Delivering advanced plastic manufacturing"
+    ctaText="View Products"
+    ctaLink="/products"
+  />
+  ...
+</HeroSlider>
+🟩 Styling:
+Use the brand palette: green (#006400), white (#ffffff), black (#000000)
+
+Overlay text should contrast clearly with background
+
+Use Tailwind classes like absolute, z-10, bg-black bg-opacity-50, text-white, text-4xl, etc.
+
+✅ Deliverables:
+A reusable HeroSlider.jsx component
+
+Eight images under /public/images/home-slider/
+
+Fully styled and responsive layout across all screen sizes
+
+CTA buttons functional and linked to /products
+
