@@ -2,7 +2,7 @@ import Layout from "@/components/layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf, Users, Headphones, MapPin, Settings, Shield, Zap, Package, DollarSign, Globe, Wrench } from "lucide-react";
+import { CheckCircle, ArrowRight, Heart, Truck, Utensils, Home, ShoppingCart, Leaf, Users, Headphones, MapPin, Settings, Shield, Zap, Package, DollarSign, Globe, Wrench, Search, Cog, TestTube, FileText } from "lucide-react";
 import HeroSlider from "@/components/hero-slider";
 
 export default function HomePage() {
@@ -277,6 +277,105 @@ export default function HomePage() {
               <Button className="w-full bg-primary-green hover:bg-primary-green/90 text-white">
                 Explore EIDER Systems
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Quality Assurance Process Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-neutral-dark mb-4">Our Quality Assurance Process</h2>
+            <p className="text-lg text-neutral-gray">Rigorous testing and validation at every step</p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Left Side - Process Steps */}
+            <div className="space-y-8">
+              {/* Step 1 */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-green rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-neutral-dark mb-2 flex items-center">
+                    <Search className="w-5 h-5 text-primary-green mr-2" />
+                    Raw Material Inspection
+                  </h3>
+                  <p className="text-neutral-gray leading-relaxed">
+                    Every batch of raw materials undergoes comprehensive testing before 
+                    production begins.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 2 */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-green rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-neutral-dark mb-2 flex items-center">
+                    <Cog className="w-5 h-5 text-primary-green mr-2" />
+                    In-Process Quality Control
+                  </h3>
+                  <p className="text-neutral-gray leading-relaxed">
+                    Continuous monitoring and testing throughout the manufacturing 
+                    process.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 3 */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-green rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-neutral-dark mb-2 flex items-center">
+                    <TestTube className="w-5 h-5 text-primary-green mr-2" />
+                    Final Product Testing
+                  </h3>
+                  <p className="text-neutral-gray leading-relaxed">
+                    Complete quality verification before products leave our facility.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 4 */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-green rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  4
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-neutral-dark mb-2 flex items-center">
+                    <FileText className="w-5 h-5 text-primary-green mr-2" />
+                    Documentation & Traceability
+                  </h3>
+                  <p className="text-neutral-gray leading-relaxed">
+                    Full documentation trail for complete product traceability.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Image */}
+            <div className="lg:order-last">
+              <div className="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
+                  alt="Quality Assurance Manufacturing Process" 
+                  className="rounded-lg shadow-xl w-full h-auto"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+                
+                {/* Quality Badge */}
+                <div className="absolute top-4 right-4 bg-primary-green text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  ISO Certified
+                </div>
+              </div>
             </div>
           </div>
         </div>
