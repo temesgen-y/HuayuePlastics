@@ -48,84 +48,84 @@ export default function AboutPage() {
       title: "50 Year Warranty",
       description: "PP-R Built to Last, Guaranteed!",
       image: "/attached_assets/certificate5_1753709156284.PNG",
-      alt: "50 Year Warranty Certificate for PP-R Products"
+      alt: "50 Year Warranty Certificate for PP-R Products",
     },
     {
       id: 2,
       title: "Sole Authorized Distributor",
       description: "WHEM Trading PLC Certificate",
       image: "/attached_assets/CERTIFICATE-For shop_1753709156284.jpg",
-      alt: "Certificate of Sole Authorized Distributor for WHEM Trading PLC"
+      alt: "Certificate of Sole Authorized Distributor for WHEM Trading PLC",
     },
     {
       id: 3,
       title: "Alternative Distributor Certificate",
       description: "Huayue Plastics Industry Certificate",
       image: "/attached_assets/certficate4_1753709156283.PNG",
-      alt: "Alternative Certificate of Sole Authorized Distributor"
+      alt: "Alternative Certificate of Sole Authorized Distributor",
     },
     {
       id: 4,
       title: "ECAE Test Report - 63mm",
       description: "PPR Pipe Testing Results",
       image: "/attached_assets/ECAE_1753709156285.jpg",
-      alt: "ECAE Test Report for 63mm PPR Pipe"
+      alt: "ECAE Test Report for 63mm PPR Pipe",
     },
     {
       id: 5,
       title: "ECAE Test Report - 32mm",
       description: "PPR Pipe Testing Results",
       image: "/attached_assets/ECAE2_1753709156285.jpg",
-      alt: "ECAE Test Report for 32mm PPR Pipe"
+      alt: "ECAE Test Report for 32mm PPR Pipe",
     },
     {
       id: 6,
       title: "Ethiopian Standards License",
       description: "License to use Ethiopian Standard (ES) Mark",
       image: "/attached_assets/Standard_1753709156286.jpg",
-      alt: "Ethiopian Conformity Assessment Enterprise Standards License"
+      alt: "Ethiopian Conformity Assessment Enterprise Standards License",
     },
     {
       id: 7,
       title: "ECAE Conformity Certificate",
       description: "Ethiopian Conformity Assessment",
       image: "/attached_assets/certifacte3_1753709156283.PNG",
-      alt: "Ethiopian Conformity Assessment Enterprise Certificate"
+      alt: "Ethiopian Conformity Assessment Enterprise Certificate",
     },
     {
       id: 8,
       title: "Alternative ECAE Certificate",
       description: "Additional Conformity Documentation",
       image: "/attached_assets/certificate2_1753709156284.PNG",
-      alt: "Alternative Ethiopian Conformity Assessment Certificate"
+      alt: "Alternative Ethiopian Conformity Assessment Certificate",
     },
     {
       id: 9,
       title: "ACAE Testing Certificate",
       description: "Mizena Testing Documentation",
       image: "/attached_assets/Mizena_1753709156285.jpg",
-      alt: "ACAE Testing Certificate and Documentation"
+      alt: "ACAE Testing Certificate and Documentation",
     },
     {
       id: 10,
       title: "Product Test Certificate",
       description: "Manufacturing Quality Assurance",
       image: "/attached_assets/Product certificate1_1753709156286.PNG",
-      alt: "Product Certificate for Manufacturing Quality"
+      alt: "Product Certificate for Manufacturing Quality",
     },
     {
       id: 11,
       title: "Test Report 25mm",
       description: "PPR Pipe Testing Documentation",
       image: "/attached_assets/Test Report 2_1753709156286.jpg",
-      alt: "Test Report for 25mm PPR Pipe Products"
+      alt: "Test Report for 25mm PPR Pipe Products",
     },
     {
       id: 12,
       title: "Test Report 50mm",
       description: "PPR Pipe Testing Documentation",
       image: "/attached_assets/Test Report 3_1753709156286.jpg",
-      alt: "Test Report for 50mm PPR Pipe Products"
+      alt: "Test Report for 50mm PPR Pipe Products",
     },
   ];
 
@@ -243,7 +243,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="/attached_assets/slide_5_1753709644847.jpg"
+                src="/attached_assets/slide 2.jpg"
                 alt="Modern plastic manufacturing facility"
                 className="rounded-xl shadow-lg w-full h-auto"
               />

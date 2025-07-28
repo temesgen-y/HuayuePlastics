@@ -228,7 +228,7 @@ export default function ContactPage() {
               className="bg-white text-primary-green hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 inline-flex items-center justify-center"
             >
               <Phone className="mr-2 h-4 w-4" />
-              Call Now: +251 933 551 2345
+              Call Now: 0911123456
             </a>
             <a
               href="mailto:info@huayueplastics.com"

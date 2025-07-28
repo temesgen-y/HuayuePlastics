@@ -962,7 +962,7 @@ export default function HomePage() {
       <section className="py-20 bg-primary-green text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Partner with Asia's Leading Packaging Manufacturer?
+            Ready to Partner with Our Leading Plastic PPR Solutions?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">
             Join over 50 countries worldwide that trust Huayue Group for their
