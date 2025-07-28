@@ -12,7 +12,7 @@ const eiderNewLogoImg = "/attached_assets/Eider%20Logo_1753700658123.PNG";
 const huayueLatestLogoImg = "/attached_assets/huayu%20logo_1753700785451.PNG";
 const eiderLatestLogoImg = "/attached_assets/Eider%20Logo_1753700793948.PNG";
 const huayueFinalLogoImg = "/attached_assets/huayu%20logo_1753701062451.PNG";
-const huayueNewestLogoImg = "/attached_assets/huayu%20logo_1753701398007.PNG";
+const huayueNewestLogoImg = "/attached_assets/huayu%20logo_1753701062451.PNG";
 
 const productCategories = [
   {
