@@ -318,10 +318,11 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="flex items-center justify-center mb-4">
-                  <CheckCircle className="w-6 h-6 text-primary-green mr-2" />
-                  <h3 className="text-2xl font-bold text-neutral-dark">
-                    EIDER
-                  </h3>
+                  <img
+                    src="/attached_assets/Eider%20Logo_1753706618853.PNG"
+                    alt="EIDER Brand Logo"
+                    className="h-16 w-auto"
+                  />
                 </div>
               </div>
 

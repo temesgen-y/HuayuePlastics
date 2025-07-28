@@ -5,7 +5,7 @@ import { Link } from "wouter";
 import { Heart, Truck, Utensils, Home, ShoppingCart, Leaf } from "lucide-react";
 // Import logo images
 const huayueLogoImg = "/attached_assets/huayu%20logo_1753699932333.PNG";
-const eiderLogoImg = "/attached_assets/Eider%20Logo_1753699951877.PNG";
+const eiderLogoImg = "/attached_assets/Eider%20Logo_1753706618853.PNG";
 const huayueNewLogoImg = "/attached_assets/huayu%20logo_1753700294403.PNG";
 const eiderNewLogoImg = "/attached_assets/Eider%20Logo_1753700658123.PNG";
 const huayueLatestLogoImg = "/attached_assets/huayu%20logo_1753700785451.PNG";

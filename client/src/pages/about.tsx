@@ -367,10 +367,11 @@ export default function AboutPage() {
                     className="w-full h-48 object-cover rounded-lg mb-6"
                   />
                   <div className="flex items-center mb-4">
-                    <CheckCircle className="w-6 h-6 text-primary-green mr-3" />
-                    <h3 className="text-2xl font-bold text-neutral-dark">
-                      EIDER
-                    </h3>
+                    <img
+                      src="/attached_assets/Eider%20Logo_1753706618853.PNG"
+                      alt="EIDER Brand Logo"
+                      className="h-12 w-auto"
+                    />
                   </div>
                   <p className="text-neutral-gray mb-6">
                     Precision-engineered piping systems for pharmaceutical and
