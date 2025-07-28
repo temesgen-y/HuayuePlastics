@@ -47,6 +47,21 @@ Preferred communication style: Simple, everyday language.
 - Contact form with validation and loading states
 - Toast notifications for user feedback
 
+## Recent Changes
+
+### January 28, 2025
+- Updated "Our Certifications" section on About Us page with official certificates
+- Replaced placeholder images with 12 authentic certification documents including:
+  - 50 Year Warranty Certificate
+  - Sole Authorized Distributor Certificates
+  - ECAE Test Reports (63mm and 32mm PPR pipes)
+  - Ethiopian Standards License
+  - Product Test Certificates
+- Added proper alt text for accessibility compliance
+- Implemented responsive grid layout (1 column mobile, 2-3 columns tablet, 4 columns desktop)
+- Enhanced hover effects and modal functionality for full-size certificate viewing
+- Added lazy loading for optimized image performance
+
 ## Data Flow
 
 ### Contact Form Submission

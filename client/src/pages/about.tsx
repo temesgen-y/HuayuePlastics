@@ -47,64 +47,85 @@ export default function AboutPage() {
       id: 1,
       title: "50 Year Warranty",
       description: "PP-R Built to Last, Guaranteed!",
-      image:
-        "https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      image: "/attached_assets/certificate5_1753709156284.PNG",
+      alt: "50 Year Warranty Certificate for PP-R Products"
     },
     {
       id: 2,
       title: "Sole Authorized Distributor",
       description: "WHEM Trading PLC Certificate",
-      image:
-        "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      image: "/attached_assets/CERTIFICATE-For shop_1753709156284.jpg",
+      alt: "Certificate of Sole Authorized Distributor for WHEM Trading PLC"
     },
     {
       id: 3,
-      title: "ECAE Test Report - 63mm",
-      description: "PPR Pipe Testing Results",
-      image:
-        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "Alternative Distributor Certificate",
+      description: "Huayue Plastics Industry Certificate",
+      image: "/attached_assets/certficate4_1753709156283.PNG",
+      alt: "Alternative Certificate of Sole Authorized Distributor"
     },
     {
       id: 4,
-      title: "ISO 9001:2015",
-      description: "Quality Management System",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "ECAE Test Report - 63mm",
+      description: "PPR Pipe Testing Results",
+      image: "/attached_assets/ECAE_1753709156285.jpg",
+      alt: "ECAE Test Report for 63mm PPR Pipe"
     },
     {
       id: 5,
-      title: "ISO 14001",
-      description: "Environmental Management",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "ECAE Test Report - 32mm",
+      description: "PPR Pipe Testing Results",
+      image: "/attached_assets/ECAE2_1753709156285.jpg",
+      alt: "ECAE Test Report for 32mm PPR Pipe"
     },
     {
       id: 6,
-      title: "ISO 13485",
-      description: "Medical Devices Quality",
-      image:
-        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "Ethiopian Standards License",
+      description: "License to use Ethiopian Standard (ES) Mark",
+      image: "/attached_assets/Standard_1753709156286.jpg",
+      alt: "Ethiopian Conformity Assessment Enterprise Standards License"
     },
     {
       id: 7,
-      title: "CE Marking",
-      description: "European Conformity",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "ECAE Conformity Certificate",
+      description: "Ethiopian Conformity Assessment",
+      image: "/attached_assets/certifacte3_1753709156283.PNG",
+      alt: "Ethiopian Conformity Assessment Enterprise Certificate"
     },
     {
       id: 8,
-      title: "FDA Approval",
-      description: "Food Grade Materials",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "Alternative ECAE Certificate",
+      description: "Additional Conformity Documentation",
+      image: "/attached_assets/certificate2_1753709156284.PNG",
+      alt: "Alternative Ethiopian Conformity Assessment Certificate"
     },
     {
       id: 9,
-      title: "GMP Certificate",
-      description: "Good Manufacturing Practice",
-      image:
-        "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+      title: "ACAE Testing Certificate",
+      description: "Mizena Testing Documentation",
+      image: "/attached_assets/Mizena_1753709156285.jpg",
+      alt: "ACAE Testing Certificate and Documentation"
+    },
+    {
+      id: 10,
+      title: "Product Test Certificate",
+      description: "Manufacturing Quality Assurance",
+      image: "/attached_assets/Product certificate1_1753709156286.PNG",
+      alt: "Product Certificate for Manufacturing Quality"
+    },
+    {
+      id: 11,
+      title: "Test Report 25mm",
+      description: "PPR Pipe Testing Documentation",
+      image: "/attached_assets/Test Report 2_1753709156286.jpg",
+      alt: "Test Report for 25mm PPR Pipe Products"
+    },
+    {
+      id: 12,
+      title: "Test Report 50mm",
+      description: "PPR Pipe Testing Documentation",
+      image: "/attached_assets/Test Report 3_1753709156286.jpg",
+      alt: "Test Report for 50mm PPR Pipe Products"
     },
   ];
 
@@ -513,7 +534,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {certifications.map((cert) => (
               <Card
                 key={cert.id}
@@ -524,8 +545,9 @@ export default function AboutPage() {
                   <div className="relative overflow-hidden rounded-t-lg">
                     <img
                       src={cert.image}
-                      alt={cert.title}
+                      alt={cert.alt}
                       className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-10 transition-all duration-300"></div>
                   </div>
