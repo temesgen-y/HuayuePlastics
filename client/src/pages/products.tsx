@@ -293,32 +293,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* HUAYUE Brand Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
-            {/* Logo */}
-            <div className="mb-12">
-              <img
-                src={huayueNewestLogoImg}
-                alt="HUAYUE Brand Logo"
-                className="h-32 w-auto mx-auto"
-              />
-            </div>
-            
-            {/* Description Box */}
-            <div className="max-w-4xl mx-auto">
-              <div className="bg-green-50 rounded-xl p-8 md:p-12 shadow-sm border border-green-100">
-                <p className="text-lg md:text-xl text-gray-800 leading-relaxed font-medium">
-                  Committed to quality and reliability, EIDER and HUAYUE PP-R products comply with ISO 15874 standards 
-                  and are manufactured using high-quality Korean-origin PP-R resin, ensuring 
-                  superior strength, durability, and safety for both hot and cold water applications.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* EIDER Brand Section */}
       <section className="py-20 bg-gray-50">
