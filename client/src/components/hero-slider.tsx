@@ -15,7 +15,7 @@ interface HeroSlide {
 const slides: HeroSlide[] = [
   {
     id: 1,
-    image: "/attached_assets/PPR 1_1753709644846.jpg",
+    image: "/attached_assets/slide 2_1753710378143.jpg",
     headline: "INNOVATIVE SOLUTIONS",
     subtext: "Delivering advanced plastic manufacturing technology for the future",
     ctaText: "View Products",
@@ -23,7 +23,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 2,
-    image: "/attached_assets/PPR 2_1753709644846.jpg",
+    image: "/attached_assets/slide 3_1753710378143.jpg",
     headline: "SUSTAINABLE PACKAGING",
     subtext: "Eco-friendly solutions that protect your products and our planet",
     ctaText: "Learn More",
@@ -31,7 +31,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 3,
-    image: "/attached_assets/slide_5_1753709644847.jpg",
+    image: "/attached_assets/slide 4_1753710378144.jpg",
     headline: "PRECISION MANUFACTURING",
     subtext: "State-of-the-art facilities ensuring consistent quality and reliability",
     ctaText: "Explore Factory",
@@ -39,7 +39,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 4,
-    image: "/attached_assets/slide1_1753709644847.PNG",
+    image: "/attached_assets/slide 5_1753710378144.jpg",
     headline: "PREMIUM PRODUCT LINE",
     subtext: "Comprehensive range of plastic solutions for diverse industries",
     ctaText: "View Catalog",
@@ -47,7 +47,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 5,
-    image: "/attached_assets/new1_1753709644845.png",
+    image: "/attached_assets/slide 6_1753710378144.jpg",
     headline: "SMART PACKAGING",
     subtext: "Advanced packaging solutions for e-commerce and retail applications",
     ctaText: "Discover More",
@@ -55,7 +55,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 6,
-    image: "/attached_assets/new2_1753709644846.png",
+    image: "/attached_assets/slide 7_1753710378144.jpg",
     headline: "ECO-FRIENDLY MATERIALS",
     subtext: "Biodegradable and recyclable plastic alternatives for a greener future",
     ctaText: "Go Green",
@@ -63,7 +63,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 7,
-    image: "/attached_assets/PPR_1753709644847.jpg",
+    image: "/attached_assets/slide 8_1753710378145.jpg",
     headline: "ADVANCED MACHINERY",
     subtext: "Cutting-edge equipment delivering precision and efficiency at scale",
     ctaText: "Learn About Us",
@@ -71,7 +71,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 8,
-    image: "/attached_assets/slide_5_1753709644847.jpg",
+    image: "/attached_assets/slide 9_1753710378145.jpg",
     headline: "GLOBAL REACH",
     subtext: "Serving 50+ countries with reliable plastic packaging solutions worldwide",
     ctaText: "Contact Us",

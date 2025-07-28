@@ -102,55 +102,55 @@ const productCategories = [
 
 const huayueProducts = [
   {
-    name: "Zip Lock Bags",
-    description: "Food-grade, resealable solutions",
+    name: "PPR Pipes & Fittings",
+    description: "High-quality piping solutions",
     image:
-      "/attached_assets/new1_1753709644845.png",
+      "/attached_assets/huaye_1753710378142.jpg",
   },
   {
-    name: "T-Shirt Bags",
-    description: "Retail shopping solutions",
+    name: "Industrial Pipes",
+    description: "Heavy-duty applications",
     image:
-      "/attached_assets/new2_1753709644846.png",
+      "/attached_assets/slide 10_1753710378145.jpg",
   },
   {
-    name: "Medical Bags",
-    description: "Hospital-grade sterile packaging",
+    name: "Pipe Systems",
+    description: "Complete piping systems",
     image:
-      "/attached_assets/slide1_1753709644847.PNG",
+      "/attached_assets/slide 11_1753710378146.jpg",
   },
   {
-    name: "Express Bags",
-    description: "E-commerce shipping solutions",
+    name: "Quality Materials",
+    description: "Premium pipe products",
     image:
-      "/attached_assets/PPR 1_1753709644846.jpg",
+      "/attached_assets/slide 3_1753710378143.jpg",
   },
 ];
 
 const eiderProducts = [
   {
-    name: "Biodegradable Bags",
-    description: "Eco-friendly compostable solutions",
+    name: "EIDER PPR Systems",
+    description: "Precision piping solutions",
     image:
-      "/attached_assets/PPR 2_1753709644846.jpg",
+      "/attached_assets/eider_1753710378142.jpg",
   },
   {
-    name: "Sustainable Packaging",
-    description: "PLA+PBAT material blend",
+    name: "Green Pipes",
+    description: "Eco-friendly pipe systems",
     image:
-      "/attached_assets/PPR_1753709644847.jpg",
+      "/attached_assets/slide 4_1753710378144.jpg",
   },
   {
-    name: "Green Solutions",
-    description: "Corn starch based materials",
+    name: "EIDER Branded Pipes",
+    description: "High-quality branded products",
     image:
-      "/attached_assets/slide_5_1753709644847.jpg",
+      "/attached_assets/slide 9_1753710378145.jpg",
   },
   {
-    name: "Earth-Friendly",
-    description: "Certified compostable options",
+    name: "Warehouse Stock",
+    description: "Ready-to-ship inventory",
     image:
-      "/attached_assets/slide1_1753709644847.PNG",
+      "/attached_assets/slide 2_1753710378143.jpg",
   },
 ];
 
@@ -208,7 +208,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="/attached_assets/new1_1753709644845.png"
+                  src="/attached_assets/slide 4_1753710378144.jpg"
                   alt="Industrial Plastic Pipes"
                   className="w-full h-48 object-cover"
                 />
@@ -226,7 +226,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="/attached_assets/new2_1753709644846.png"
+                  src="/attached_assets/slide 6_1753710378144.jpg"
                   alt="Specialized Fittings"
                   className="w-full h-48 object-cover"
                 />
@@ -277,7 +277,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="/attached_assets/slide_5_1753709644847.jpg"
+                  src="/attached_assets/slide 7_1753710378144.jpg"
                   alt="Welded Plastic Tubes"
                   className="w-full h-48 object-cover"
                 />

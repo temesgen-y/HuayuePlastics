@@ -126,7 +126,7 @@ export default function HomePage() {
             <div>
               <div className="relative">
                 <img
-                  src="/attached_assets/slide_5_1753709644847.jpg"
+                  src="/attached_assets/slide 8_1753710378145.jpg"
                   alt="Huayue Plastics Manufacturing Facility"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
@@ -260,7 +260,7 @@ export default function HomePage() {
               <div className="text-center mb-8">
                 <div className="w-64 h-48 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/attached_assets/10_1753709644845.jpg"
+                    src="/attached_assets/huaye_1753710378142.jpg"
                     alt="HUAYUE PPR Pipes and Fittings"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -312,7 +312,7 @@ export default function HomePage() {
               <div className="text-center mb-8">
                 <div className="w-64 h-48 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/attached_assets/14_1753709644845.jpg"
+                    src="/attached_assets/eider_1753710378142.jpg"
                     alt="EIDER PPR Piping Systems"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -451,7 +451,7 @@ export default function HomePage() {
             <div className="lg:order-last">
               <div className="relative">
                 <img
-                  src="/attached_assets/slide_5_1753709644847.jpg"
+                  src="/attached_assets/slide 5_1753710378144.jpg"
                   alt="Quality Assurance Manufacturing Process"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
