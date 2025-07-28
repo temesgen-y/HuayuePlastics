@@ -236,43 +236,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Eider Brand Products */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
-              Eider Brand Products
-            </h2>
-            <p className="text-lg text-neutral-gray max-w-2xl mx-auto">
-              Our Eider brand focuses on sustainable, biodegradable packaging
-              solutions for environmentally conscious businesses.
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {eiderProducts.map((product, index) => (
-              <Card
-                key={index}
-                className="hover:shadow-lg transition-shadow duration-200"
-              >
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-48 object-cover rounded-t-lg"
-                />
-                <CardContent className="p-4">
-                  <h4 className="font-semibold text-neutral-dark mb-2">
-                    {product.name}
-                  </h4>
-                  <p className="text-sm text-neutral-gray">
-                    {product.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Materials & Certifications */}
       <section className="py-20 bg-gray-50">
