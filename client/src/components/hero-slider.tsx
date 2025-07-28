@@ -15,65 +15,97 @@ interface HeroSlide {
 const slides: HeroSlide[] = [
   {
     id: 1,
-    image: "/attached_assets/slide 2_1753710378143.jpg",
-    headline: "INNOVATIVE SOLUTIONS",
-    subtext: "Delivering advanced plastic manufacturing technology for the future",
+    image: "/attached_assets/Slide1_1753710378148.jpg",
+    headline: "HUAYUE PLASTICS INDUSTRY",
+    subtext: "Leading manufacturer of premium plastic pipes and industrial solutions",
     ctaText: "View Products",
     ctaLink: "/products"
   },
   {
     id: 2,
-    image: "/attached_assets/slide 3_1753710378143.jpg",
-    headline: "SUSTAINABLE PACKAGING",
-    subtext: "Eco-friendly solutions that protect your products and our planet",
+    image: "/attached_assets/slide 2_1753710378143.jpg",
+    headline: "WAREHOUSE EXCELLENCE",
+    subtext: "Organized inventory management ensuring quality and quick delivery",
     ctaText: "Learn More",
-    ctaLink: "/products"
-  },
-  {
-    id: 3,
-    image: "/attached_assets/slide 4_1753710378144.jpg",
-    headline: "PRECISION MANUFACTURING",
-    subtext: "State-of-the-art facilities ensuring consistent quality and reliability",
-    ctaText: "Explore Factory",
     ctaLink: "/about"
   },
   {
+    id: 3,
+    image: "/attached_assets/slide 3_1753710378143.jpg",
+    headline: "PRECISION MANUFACTURING",
+    subtext: "Advanced white PPR pipes manufactured to highest quality standards",
+    ctaText: "Explore Products",
+    ctaLink: "/products"
+  },
+  {
     id: 4,
-    image: "/attached_assets/slide 5_1753710378144.jpg",
-    headline: "PREMIUM PRODUCT LINE",
-    subtext: "Comprehensive range of plastic solutions for diverse industries",
+    image: "/attached_assets/slide 4_1753710378144.jpg",
+    headline: "PREMIUM EIDER PIPES",
+    subtext: "High-performance green PPR piping systems for professional applications",
     ctaText: "View Catalog",
     ctaLink: "/products"
   },
   {
     id: 5,
-    image: "/attached_assets/slide 6_1753710378144.jpg",
-    headline: "SMART PACKAGING",
-    subtext: "Advanced packaging solutions for e-commerce and retail applications",
-    ctaText: "Discover More",
-    ctaLink: "/products"
+    image: "/attached_assets/slide 5_1753710378144.jpg",
+    headline: "SHOWROOM FACILITY",
+    subtext: "Modern display center showcasing our complete product range",
+    ctaText: "Visit Showroom",
+    ctaLink: "/about"
   },
   {
     id: 6,
-    image: "/attached_assets/slide 7_1753710378144.jpg",
-    headline: "ECO-FRIENDLY MATERIALS",
-    subtext: "Biodegradable and recyclable plastic alternatives for a greener future",
-    ctaText: "Go Green",
+    image: "/attached_assets/slide 6_1753710378144.jpg",
+    headline: "COMPREHENSIVE INVENTORY",
+    subtext: "Extensive stock of pipes and fittings ready for immediate delivery",
+    ctaText: "Check Stock",
     ctaLink: "/products"
   },
   {
     id: 7,
-    image: "/attached_assets/slide 8_1753710378145.jpg",
-    headline: "ADVANCED MACHINERY",
-    subtext: "Cutting-edge equipment delivering precision and efficiency at scale",
-    ctaText: "Learn About Us",
+    image: "/attached_assets/slide 7_1753710378144.jpg",
+    headline: "QUALITY CONTROL",
+    subtext: "Every pipe marked with specifications ensuring consistent performance",
+    ctaText: "Quality Standards",
     ctaLink: "/about"
   },
   {
     id: 8,
+    image: "/attached_assets/slide 8_1753710378145.jpg",
+    headline: "PROFESSIONAL DISPLAY",
+    subtext: "Modern showroom featuring EIDER and HUAYUE branded products",
+    ctaText: "Learn About Us",
+    ctaLink: "/about"
+  },
+  {
+    id: 9,
     image: "/attached_assets/slide 9_1753710378145.jpg",
+    headline: "EIDER BRAND EXCELLENCE",
+    subtext: "Premium branded PPR pipes with guaranteed quality certification",
+    ctaText: "EIDER Products",
+    ctaLink: "/products"
+  },
+  {
+    id: 10,
+    image: "/attached_assets/slide 10_1753710378145.jpg",
+    headline: "DETAILED SPECIFICATIONS",
+    subtext: "Every product clearly marked with technical details and standards",
+    ctaText: "View Specs",
+    ctaLink: "/products"
+  },
+  {
+    id: 11,
+    image: "/attached_assets/slide 11_1753710378146.jpg",
+    headline: "INDUSTRIAL GRADE PIPES",
+    subtext: "Heavy-duty piping solutions for demanding industrial applications",
+    ctaText: "Industrial Solutions",
+    ctaLink: "/products"
+  },
+  {
+    id: 12,
+    image: "/attached_assets/slide 12_1753710378146.jpg",
     headline: "GLOBAL REACH",
-    subtext: "Serving 50+ countries with reliable plastic packaging solutions worldwide",
+    subtext: "Serving customers worldwide with reliable plastic piping solutions",
     ctaText: "Contact Us",
     ctaLink: "/contact"
   }
