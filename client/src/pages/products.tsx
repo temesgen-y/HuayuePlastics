@@ -170,7 +170,7 @@ export default function ProductsPage() {
       </section>
 
       {/* HUAYUE Brand Section */}
-      <section className="py-20 bg-white">
+      <section className="pt-8 pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Logo and Quality Statement */}
           <div className="text-center mb-16">
