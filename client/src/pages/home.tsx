@@ -126,7 +126,7 @@ export default function HomePage() {
             <div>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80"
+                  src="/attached_assets/slide_5_1753709644847.jpg"
                   alt="Huayue Plastics Manufacturing Facility"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
@@ -260,7 +260,7 @@ export default function HomePage() {
               <div className="text-center mb-8">
                 <div className="w-64 h-48 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                    src="/attached_assets/10_1753709644845.jpg"
                     alt="HUAYUE PPR Pipes and Fittings"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -312,7 +312,7 @@ export default function HomePage() {
               <div className="text-center mb-8">
                 <div className="w-64 h-48 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                    src="/attached_assets/14_1753709644845.jpg"
                     alt="EIDER PPR Piping Systems"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -451,7 +451,7 @@ export default function HomePage() {
             <div className="lg:order-last">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80"
+                  src="/attached_assets/slide_5_1753709644847.jpg"
                   alt="Quality Assurance Manufacturing Process"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />

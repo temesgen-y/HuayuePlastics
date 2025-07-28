@@ -61,6 +61,15 @@ Preferred communication style: Simple, everyday language.
 - Implemented responsive grid layout (1 column mobile, 2-3 columns tablet, 4 columns desktop)
 - Enhanced hover effects and modal functionality for full-size certificate viewing
 - Added lazy loading for optimized image performance
+- **MAJOR UPDATE**: Completely replaced all external Unsplash image URLs with locally uploaded images across entire website:
+  - Hero slider images (8 slides) - replaced with product and facility photos
+  - Products page images - category cards, brand products, and industrial pipe images
+  - About Us page images - facility, leadership team, and environmental responsibility
+  - Home page images - quality assurance process and brand showcase sections
+  - News page images - all 11 news article thumbnails and featured image
+  - Layout and admin auth background images
+  - Maintained all existing responsive design and functionality
+  - Images sourced from attached_assets folder with proper file naming convention
 
 ## Data Flow
 

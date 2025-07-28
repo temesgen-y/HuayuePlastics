@@ -25,7 +25,7 @@ const productCategories = [
       "Medical waste bags",
     ],
     image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/new1_1753709644845.png",
     category: "medical",
   },
   {
@@ -39,7 +39,7 @@ const productCategories = [
       "Poly mailers",
     ],
     image:
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/new2_1753709644846.png",
     category: "ecommerce",
   },
   {
@@ -53,7 +53,7 @@ const productCategories = [
       "Fresh produce bags",
     ],
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/slide1_1753709644847.PNG",
     category: "food",
   },
   {
@@ -67,7 +67,7 @@ const productCategories = [
       "Laundry bags",
     ],
     image:
-      "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/PPR 1_1753709644846.jpg",
     category: "household",
   },
   {
@@ -81,7 +81,7 @@ const productCategories = [
       "Drawstring bags",
     ],
     image:
-      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/PPR 2_1753709644846.jpg",
     category: "retail",
   },
   {
@@ -95,7 +95,7 @@ const productCategories = [
       "Eco-friendly options",
     ],
     image:
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/PPR_1753709644847.jpg",
     category: "biodegradable",
   },
 ];
@@ -105,25 +105,25 @@ const huayueProducts = [
     name: "Zip Lock Bags",
     description: "Food-grade, resealable solutions",
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/new1_1753709644845.png",
   },
   {
     name: "T-Shirt Bags",
     description: "Retail shopping solutions",
     image:
-      "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/new2_1753709644846.png",
   },
   {
     name: "Medical Bags",
     description: "Hospital-grade sterile packaging",
     image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/slide1_1753709644847.PNG",
   },
   {
     name: "Express Bags",
     description: "E-commerce shipping solutions",
     image:
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/PPR 1_1753709644846.jpg",
   },
 ];
 
@@ -132,25 +132,25 @@ const eiderProducts = [
     name: "Biodegradable Bags",
     description: "Eco-friendly compostable solutions",
     image:
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/PPR 2_1753709644846.jpg",
   },
   {
     name: "Sustainable Packaging",
     description: "PLA+PBAT material blend",
     image:
-      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/PPR_1753709644847.jpg",
   },
   {
     name: "Green Solutions",
     description: "Corn starch based materials",
     image:
-      "https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/slide_5_1753709644847.jpg",
   },
   {
     name: "Earth-Friendly",
     description: "Certified compostable options",
     image:
-      "https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      "/attached_assets/slide1_1753709644847.PNG",
   },
 ];
 
@@ -208,7 +208,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  src="/attached_assets/new1_1753709644845.png"
                   alt="Industrial Plastic Pipes"
                   className="w-full h-48 object-cover"
                 />
@@ -226,7 +226,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  src="/attached_assets/new2_1753709644846.png"
                   alt="Specialized Fittings"
                   className="w-full h-48 object-cover"
                 />
@@ -243,7 +243,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  src="/attached_assets/PPR 1_1753709644846.jpg"
                   alt="High-Pressure Systems"
                   className="w-full h-48 object-cover"
                 />
@@ -260,7 +260,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  src="/attached_assets/PPR 2_1753709644846.jpg"
                   alt="Heavy-Duty Flanges"
                   className="w-full h-48 object-cover"
                 />
@@ -277,7 +277,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  src="/attached_assets/slide_5_1753709644847.jpg"
                   alt="Welded Plastic Tubes"
                   className="w-full h-48 object-cover"
                 />
@@ -294,7 +294,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  src="/attached_assets/PPR_1753709644847.jpg"
                   alt="Carbon Plastic Assemblies"
                   className="w-full h-48 object-cover"
                 />

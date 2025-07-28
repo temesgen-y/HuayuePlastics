@@ -15,7 +15,7 @@ interface HeroSlide {
 const slides: HeroSlide[] = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/PPR 1_1753709644846.jpg",
     headline: "INNOVATIVE SOLUTIONS",
     subtext: "Delivering advanced plastic manufacturing technology for the future",
     ctaText: "View Products",
@@ -23,7 +23,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/PPR 2_1753709644846.jpg",
     headline: "SUSTAINABLE PACKAGING",
     subtext: "Eco-friendly solutions that protect your products and our planet",
     ctaText: "Learn More",
@@ -31,7 +31,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/slide_5_1753709644847.jpg",
     headline: "PRECISION MANUFACTURING",
     subtext: "State-of-the-art facilities ensuring consistent quality and reliability",
     ctaText: "Explore Factory",
@@ -39,7 +39,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/slide1_1753709644847.PNG",
     headline: "PREMIUM PRODUCT LINE",
     subtext: "Comprehensive range of plastic solutions for diverse industries",
     ctaText: "View Catalog",
@@ -47,7 +47,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1553531384-cc64ac80f931?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/new1_1753709644845.png",
     headline: "SMART PACKAGING",
     subtext: "Advanced packaging solutions for e-commerce and retail applications",
     ctaText: "Discover More",
@@ -55,7 +55,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/new2_1753709644846.png",
     headline: "ECO-FRIENDLY MATERIALS",
     subtext: "Biodegradable and recyclable plastic alternatives for a greener future",
     ctaText: "Go Green",
@@ -63,7 +63,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 7,
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/PPR_1753709644847.jpg",
     headline: "ADVANCED MACHINERY",
     subtext: "Cutting-edge equipment delivering precision and efficiency at scale",
     ctaText: "Learn About Us",
@@ -71,7 +71,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 8,
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80",
+    image: "/attached_assets/slide_5_1753709644847.jpg",
     headline: "GLOBAL REACH",
     subtext: "Serving 50+ countries with reliable plastic packaging solutions worldwide",
     ctaText: "Contact Us",

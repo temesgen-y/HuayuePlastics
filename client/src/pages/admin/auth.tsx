@@ -241,7 +241,7 @@ export default function AdminAuth() {
         <div 
           className="absolute inset-0 bg-gradient-to-br from-primary-green to-secondary-green"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000')",
+            backgroundImage: "url('/attached_assets/slide_5_1753709644847.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

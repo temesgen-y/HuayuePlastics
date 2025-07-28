@@ -243,7 +243,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                src="/attached_assets/slide_5_1753709644847.jpg"
                 alt="Modern plastic manufacturing facility"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -328,7 +328,7 @@ export default function AboutPage() {
               <div className="p-8">
                 <div className="mb-8">
                   <img
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80"
+                    src="/attached_assets/8_1753709644844.jpg"
                     alt="HUAYUE Heavy-duty Steel Pipes"
                     className="w-full h-48 object-cover rounded-lg mb-6"
                   />
@@ -383,7 +383,7 @@ export default function AboutPage() {
               <div className="p-8">
                 <div className="mb-8">
                   <img
-                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80"
+                    src="/attached_assets/9_1753709644845.jpg"
                     alt="EIDER Precision Piping Systems"
                     className="w-full h-48 object-cover rounded-lg mb-6"
                   />
@@ -581,7 +581,7 @@ export default function AboutPage() {
               <div className="relative mb-6">
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200">
                   <img
-                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+                    src="/attached_assets/1_1753709644842.jpg"
                     alt="Alemayehu Tadesse - Chief Executive Officer"
                     className="w-full h-full object-cover"
                   />
@@ -604,7 +604,7 @@ export default function AboutPage() {
               <div className="relative mb-6">
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200">
                   <img
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+                    src="/attached_assets/2_1753709644843.jpg"
                     alt="Meron Habtamu - Chief Technology Officer"
                     className="w-full h-full object-cover"
                   />
@@ -627,7 +627,7 @@ export default function AboutPage() {
               <div className="relative mb-6">
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200">
                   <img
-                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+                    src="/attached_assets/3_1753709644843.jpg"
                     alt="Dawit Kebede - Chief Operations Officer"
                     className="w-full h-full object-cover"
                   />
@@ -700,7 +700,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                src="/attached_assets/PPR_1753709644847.jpg"
                 alt="Sustainable packaging and environmental responsibility"
                 className="rounded-xl shadow-lg w-full h-auto"
               />

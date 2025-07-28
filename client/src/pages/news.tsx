@@ -10,7 +10,7 @@ const newsArticles = [
     excerpt: "We're proud to announce the successful expansion of our manufacturing facility in Kombolicha, Ethiopia. This major investment increases our production capacity by 40% and creates 200 new jobs in the region, reinforcing our commitment to sustainable industrial growth in Ethiopia.",
     date: "January 15, 2025",
     category: "Manufacturing",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+    image: "/attached_assets/slide_5_1753709644847.jpg",
     icon: Globe
   },
   {
@@ -19,7 +19,7 @@ const newsArticles = [
     excerpt: "Launching specialized piping systems designed for Ethiopian industrial applications, featuring enhanced durability and climate-resistant materials for local manufacturing needs.",
     date: "November 28, 2024",
     category: "Product Innovation",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/PPR 1_1753709644846.jpg",
     icon: Globe
   },
   {
@@ -28,7 +28,7 @@ const newsArticles = [
     excerpt: "Our Kombolicha facility achieves international quality certifications, establishing new benchmarks for industrial manufacturing standards in Ethiopia.",
     date: "October 12, 2024",
     category: "Quality Assurance",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/PPR 2_1753709644846.jpg",
     icon: Award
   },
   {
@@ -37,7 +37,7 @@ const newsArticles = [
     excerpt: "Forming key alliances with local Ethiopian manufacturers to strengthen supply chains and support regional industrial development initiatives.",
     date: "September 18, 2024",
     category: "Partnerships", 
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/PPR_1753709644847.jpg",
     icon: Globe
   },
   {
@@ -46,7 +46,7 @@ const newsArticles = [
     excerpt: "New research and development facility focuses on creating advanced piping solutions tailored for African industrial applications and climate conditions.",
     date: "August 22, 2024", 
     category: "Innovation",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/new1_1753709644845.png",
     icon: Award
   },
   {
@@ -55,7 +55,7 @@ const newsArticles = [
     excerpt: "Implementing eco-friendly production methods and renewable energy systems at our Kombolicha facility to support Ethiopia's green development goals.",
     date: "July 15, 2024",
     category: "Sustainability",
-    image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/new2_1753709644846.png",
     icon: Leaf
   },
   {
@@ -64,7 +64,7 @@ const newsArticles = [
     excerpt: "Implementing cutting-edge automation and robotics systems in our Kombolicha facility to enhance production efficiency and maintain world-class quality standards.",
     date: "June 10, 2024",
     category: "Technology",
-    image: "https://images.unsplash.com/photo-1565088447-c32c3d5300d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/slide1_1753709644847.PNG",
     icon: Award
   },
   {
@@ -73,7 +73,7 @@ const newsArticles = [
     excerpt: "Launching comprehensive training initiatives to develop local Ethiopian talent in advanced manufacturing techniques and industrial engineering skills.",
     date: "May 25, 2024",
     category: "Training",
-    image: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/4_1753709644843.jpg",
     icon: Globe
   },
   {
@@ -82,7 +82,7 @@ const newsArticles = [
     excerpt: "Establishing regional distribution networks across East Africa to improve delivery times and reduce costs for our industrial piping solutions.",
     date: "April 18, 2024",
     category: "Logistics",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/5_1753709644844.jpg",
     icon: Globe
   },
   {
@@ -91,7 +91,7 @@ const newsArticles = [
     excerpt: "Installing solar power systems and implementing renewable energy solutions to power our manufacturing operations and reduce environmental impact.",
     date: "March 12, 2024",
     category: "Green Energy",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/6_1753709644844.jpg",
     icon: Leaf
   },
   {
@@ -100,7 +100,7 @@ const newsArticles = [
     excerpt: "Supporting local community development through infrastructure projects, educational initiatives, and healthcare programs in the Kombolicha region.",
     date: "February 8, 2024",
     category: "Community",
-    image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+    image: "/attached_assets/7_1753709644844.jpg",
     icon: Award
   }
 ];
@@ -144,7 +144,7 @@ export default function NewsPage() {
               <div className="relative">
                 <div className="w-full h-64 lg:h-full bg-gray-200 rounded-lg overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+                    src="/attached_assets/slide_5_1753709644847.jpg"
                     alt="Huayue Manufacturing Facility in Ethiopia"
                     className="w-full h-full object-cover"
                   />
