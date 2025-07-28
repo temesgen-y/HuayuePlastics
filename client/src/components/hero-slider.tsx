@@ -15,7 +15,7 @@ interface HeroSlide {
 const slides: HeroSlide[] = [
   {
     id: 1,
-    image: "/attached_assets/slide 2.jpg",
+    image: "/attached_assets/slide%202.jpg",
     headline: "HUAYUE PLASTICS INDUSTRY",
     subtext: "Leading manufacturer of premium plastic pipes and industrial solutions",
     ctaText: "View Products",
@@ -23,7 +23,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 2,
-    image: "/attached_assets/slide 3.jpg",
+    image: "/attached_assets/slide%203.jpg",
     headline: "WAREHOUSE EXCELLENCE",
     subtext: "Organized inventory management ensuring quality and quick delivery",
     ctaText: "Learn More",
@@ -31,7 +31,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 3,
-    image: "/attached_assets/slide 4.jpg",
+    image: "/attached_assets/slide%204.jpg",
     headline: "PRECISION MANUFACTURING",
     subtext: "Advanced white PPR pipes manufactured to highest quality standards",
     ctaText: "Explore Products",
@@ -39,7 +39,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 4,
-    image: "/attached_assets/slide -5.jpg",
+    image: "/attached_assets/slide%20-5.jpg",
     headline: "PREMIUM EIDER PIPES",
     subtext: "High-performance green PPR piping systems for professional applications",
     ctaText: "View Catalog",
@@ -47,7 +47,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 5,
-    image: "/attached_assets/slide -6.jpg",
+    image: "/attached_assets/slide%20-6.jpg",
     headline: "SHOWROOM FACILITY",
     subtext: "Modern display center showcasing our complete product range",
     ctaText: "Visit Showroom",
@@ -55,7 +55,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 6,
-    image: "/attached_assets/slide -7.jpg",
+    image: "/attached_assets/slide%20-7.jpg",
     headline: "COMPREHENSIVE INVENTORY",
     subtext: "Extensive stock of pipes and fittings ready for immediate delivery",
     ctaText: "Check Stock",
@@ -63,7 +63,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 7,
-    image: "/attached_assets/slide -8.jpg",
+    image: "/attached_assets/slide%20-8.jpg",
     headline: "QUALITY CONTROL",
     subtext: "Every pipe marked with specifications ensuring consistent performance",
     ctaText: "Quality Standards",
@@ -71,7 +71,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 8,
-    image: "/attached_assets/slide -9.jpg",
+    image: "/attached_assets/slide%20-9.jpg",
     headline: "PROFESSIONAL DISPLAY",
     subtext: "Modern showroom featuring EIDER and HUAYUE branded products",
     ctaText: "Learn About Us",
@@ -79,7 +79,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 9,
-    image: "/attached_assets/slide -10.jpg",
+    image: "/attached_assets/slide%20-10.jpg",
     headline: "EIDER BRAND EXCELLENCE",
     subtext: "Premium branded PPR pipes with guaranteed quality certification",
     ctaText: "EIDER Products",
@@ -87,7 +87,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 10,
-    image: "/attached_assets/slide -11.jpg",
+    image: "/attached_assets/slide%20-11.jpg",
     headline: "DETAILED SPECIFICATIONS",
     subtext: "Every product clearly marked with technical details and standards",
     ctaText: "View Specs",
@@ -95,7 +95,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 11,
-    image: "/attached_assets/slide -12.jpg",
+    image: "/attached_assets/slide%20-12.jpg",
     headline: "INDUSTRIAL GRADE PIPES",
     subtext: "Heavy-duty piping solutions for demanding industrial applications",
     ctaText: "Industrial Solutions",
@@ -103,7 +103,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 12,
-    image: "/attached_assets/slide -13.jpg",
+    image: "/attached_assets/slide%20-13.jpg",
     headline: "ADVANCED TECHNOLOGY",
     subtext: "State-of-the-art manufacturing processes ensuring superior quality",
     ctaText: "Technology",
@@ -111,7 +111,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 13,
-    image: "/attached_assets/slide -14.jpg",
+    image: "/attached_assets/slide%20-14.jpg",
     headline: "QUALITY ASSURANCE",
     subtext: "Rigorous testing and quality control at every stage of production",
     ctaText: "Quality Control",
@@ -119,7 +119,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 14,
-    image: "/attached_assets/slide -15.jpg",
+    image: "/attached_assets/slide%20-15.jpg",
     headline: "PRODUCT EXCELLENCE",
     subtext: "Premium materials and precision engineering in every product",
     ctaText: "View Products",
@@ -127,7 +127,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 15,
-    image: "/attached_assets/slide -16.jpg",
+    image: "/attached_assets/slide%20-16.jpg",
     headline: "INNOVATION FOCUS",
     subtext: "Continuous development of new solutions for evolving market needs",
     ctaText: "Innovation",
@@ -135,7 +135,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 16,
-    image: "/attached_assets/slide- 17.jpg",
+    image: "/attached_assets/slide-%2017.jpg",
     headline: "MARKET LEADERSHIP",
     subtext: "Setting industry standards with reliable and durable products",
     ctaText: "Leadership",
@@ -143,7 +143,7 @@ const slides: HeroSlide[] = [
   },
   {
     id: 17,
-    image: "/attached_assets/slide -18.jpg",
+    image: "/attached_assets/slide%20-18.jpg",
     headline: "GLOBAL REACH",
     subtext: "Serving customers worldwide with reliable plastic piping solutions",
     ctaText: "Contact Us",
