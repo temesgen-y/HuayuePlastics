@@ -2,14 +2,7 @@ import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import {
-  Heart,
-  Truck,
-  Utensils,
-  Home,
-  ShoppingCart,
-  Leaf,
-} from "lucide-react";
+import { Heart, Truck, Utensils, Home, ShoppingCart, Leaf } from "lucide-react";
 // Import logo images
 const huayueLogoImg = "/attached_assets/huayu%20logo_1753699932333.PNG";
 const eiderLogoImg = "/attached_assets/Eider%20Logo_1753699951877.PNG";
@@ -162,7 +155,6 @@ const eiderProducts = [
 ];
 
 export default function ProductsPage() {
-
   return (
     <Layout
       title="Products - Huayue Plastics Industry"
@@ -174,10 +166,6 @@ export default function ProductsPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Our Product Portfolio
           </h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-            Comprehensive plastic packaging solutions across multiple industries
-            with focus on quality, sustainability, and innovation.
-          </p>
         </div>
       </section>
 
@@ -203,8 +191,6 @@ export default function ProductsPage() {
               </p>
             </div>
           </div>
-
-
         </div>
       </section>
 
@@ -219,14 +205,64 @@ export default function ProductsPage() {
                 className="h-24 w-auto mx-auto"
               />
             </div>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-neutral-gray leading-relaxed">
-                EIDER specializes in biodegradable and environmentally
-                sustainable packaging solutions. Our products are made from
-                PLA+PBAT+corn starch materials that are fully compostable,
-                providing eco-friendly alternatives without compromising on
-                strength and durability.
-              </p>
+            
+            {/* Enhanced EIDER Description Section */}
+            <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-12 mb-12">
+              <div className="flex flex-col items-center">
+                {/* Bird Icon SVG */}
+                <div className="mb-8">
+                  <svg 
+                    width="60" 
+                    height="40" 
+                    viewBox="0 0 60 40" 
+                    fill="none" 
+                    className="text-primary-green"
+                  >
+                    <path 
+                      d="M45 15c-2-8-8-12-15-12-7 0-13 4-15 12-5 2-8 6-8 11s3 9 8 11c2 8 8 12 15 12 7 0 13-4 15-12 5-2 8-6 8-11s-3-9-8-11z" 
+                      stroke="currentColor" 
+                      strokeWidth="2" 
+                      fill="none"
+                    />
+                    <circle cx="35" cy="20" r="2" fill="currentColor"/>
+                    <path d="M25 25c2 2 5 2 7 0" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
+                
+                <h3 className="text-2xl font-bold text-neutral-dark mb-6">
+                  Sustainable Packaging Solutions
+                </h3>
+                
+                <p className="text-lg text-neutral-gray leading-relaxed text-center">
+                  EIDER specializes in biodegradable and environmentally sustainable packaging solutions. 
+                  Our products are made from PLA+PBAT+corn starch materials that are fully compostable, 
+                  providing eco-friendly alternatives without compromising on strength and durability.
+                </p>
+                
+                <div className="mt-8 grid md:grid-cols-3 gap-6 w-full">
+                  <div className="text-center p-4">
+                    <div className="w-12 h-12 bg-secondary-green rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Leaf className="text-white w-6 h-6" />
+                    </div>
+                    <h4 className="font-semibold text-neutral-dark mb-2">100% Compostable</h4>
+                    <p className="text-sm text-neutral-gray">Fully biodegradable materials</p>
+                  </div>
+                  <div className="text-center p-4">
+                    <div className="w-12 h-12 bg-accent-green rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Heart className="text-white w-6 h-6" />
+                    </div>
+                    <h4 className="font-semibold text-neutral-dark mb-2">Eco-Friendly</h4>
+                    <p className="text-sm text-neutral-gray">Sustainable production process</p>
+                  </div>
+                  <div className="text-center p-4">
+                    <div className="w-12 h-12 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-3">
+                      <ShoppingCart className="text-white w-6 h-6" />
+                    </div>
+                    <h4 className="font-semibold text-neutral-dark mb-2">Durable</h4>
+                    <p className="text-sm text-neutral-gray">Strong and reliable packaging</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
