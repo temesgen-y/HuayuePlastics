@@ -181,6 +181,24 @@ export default function ProductsPage() {
               {activeDropdown === 'huayue' && (
                 <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-200 z-10">
                   <div className="p-6">
+                    {/* HUAYUE Brand Header Section */}
+                    <div className="text-center mb-6">
+                      <div className="mb-4">
+                        <img
+                          src={huayueFinalLogoImg}
+                          alt="HUAYUE Brand Logo"
+                          className="h-16 w-auto mx-auto"
+                        />
+                      </div>
+                      <div className="bg-green-50 rounded-lg p-4 border border-green-100">
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          Committed to quality and reliability, EIDER and HUAYUE PP-R products comply with ISO 15874 
+                          standards and are manufactured using high-quality Korean-origin PP-R resin, ensuring 
+                          superior strength, durability, and safety for both hot and cold water applications
+                        </p>
+                      </div>
+                    </div>
+                    
                     <div className="grid gap-4">
                       {huayueProducts.map((product, index) => (
                         <div key={index} className="flex items-center p-3 hover:bg-gray-50 rounded-lg transition-colors">
