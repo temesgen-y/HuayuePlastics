@@ -191,6 +191,122 @@ export default function ProductsPage() {
               </p>
             </div>
           </div>
+
+          {/* Our Product Range */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
+              Our Product Range
+            </h2>
+            <p className="text-lg text-gray-600">
+              Explore our comprehensive range of industrial piping solutions
+            </p>
+          </div>
+
+          {/* Product Categories Grid */}
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Industrial Plastic Pipes */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Industrial Plastic Pipes"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">
+                Industrial Plastic Pipes
+              </h3>
+              <p className="text-gray-600">
+                High-grade HUAYUE PP-R pipes and fittings for industrial
+                applications
+              </p>
+            </div>
+
+            {/* Specialized Fittings */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Specialized Fittings"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">
+                Specialized Fittings
+              </h3>
+              <p className="text-gray-600">
+                Custom fittings for complex industrial systems
+              </p>
+            </div>
+
+            {/* High-Pressure Systems */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="High-Pressure Systems"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">
+                High-Pressure Systems
+              </h3>
+              <p className="text-gray-600">
+                Pipes designed for extreme pressure environments
+              </p>
+            </div>
+
+            {/* Heavy-Duty Flanges */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Heavy-Duty Flanges"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">
+                Heavy-Duty Flanges
+              </h3>
+              <p className="text-gray-600">
+                Industrial flanges for critical connections
+              </p>
+            </div>
+
+            {/* Welded Plastic Tubes */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Welded Plastic Tubes"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">
+                Welded Plastic Tubes
+              </h3>
+              <p className="text-gray-600">
+                ERW and LSAW tubes for structural applications
+              </p>
+            </div>
+
+            {/* Carbon Plastic Assemblies */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Carbon Plastic Assemblies"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">
+                Carbon Plastic Assemblies
+              </h3>
+              <p className="text-gray-600">
+                Complete piping assemblies for industrial plants
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
