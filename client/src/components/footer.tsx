@@ -56,9 +56,11 @@ export default function Footer() {
                 <Youtube className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/HuayuePlastics"
                 className="text-gray-400 hover:text-accent-green transition-colors"
                 title="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Facebook className="h-5 w-5" />
               </a>
@@ -77,9 +79,11 @@ export default function Footer() {
                 <SiTiktok className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://t.me/HuayuePlastics"
                 className="text-gray-400 hover:text-accent-green transition-colors"
                 title="Telegram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Send className="h-5 w-5" />
               </a>
