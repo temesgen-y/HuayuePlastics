@@ -24,8 +24,7 @@ const productCategories = [
       "Patient bags",
       "Medical waste bags",
     ],
-    image:
-      "/attached_assets/new1_1753709644845.png",
+    image: "/attached_assets/new1_1753709644845.png",
     category: "medical",
   },
   {
@@ -38,8 +37,7 @@ const productCategories = [
       "Courier pouches",
       "Poly mailers",
     ],
-    image:
-      "/attached_assets/new2_1753709644846.png",
+    image: "/attached_assets/new2_1753709644846.png",
     category: "ecommerce",
   },
   {
@@ -52,8 +50,7 @@ const productCategories = [
       "Storage bags",
       "Fresh produce bags",
     ],
-    image:
-      "/attached_assets/slide1_1753709644847.PNG",
+    image: "/attached_assets/slide1_1753709644847.PNG",
     category: "food",
   },
   {
@@ -66,8 +63,7 @@ const productCategories = [
       "Storage solutions",
       "Laundry bags",
     ],
-    image:
-      "/attached_assets/PPR 1_1753709644846.jpg",
+    image: "/attached_assets/PPR 1_1753709644846.jpg",
     category: "household",
   },
   {
@@ -80,8 +76,7 @@ const productCategories = [
       "Handle bags",
       "Drawstring bags",
     ],
-    image:
-      "/attached_assets/PPR 2_1753709644846.jpg",
+    image: "/attached_assets/PPR 2_1753709644846.jpg",
     category: "retail",
   },
   {
@@ -94,8 +89,7 @@ const productCategories = [
       "Compostable bags",
       "Eco-friendly options",
     ],
-    image:
-      "/attached_assets/PPR_1753709644847.jpg",
+    image: "/attached_assets/slide-5.jpg",
     category: "biodegradable",
   },
 ];
@@ -104,26 +98,22 @@ const huayueProducts = [
   {
     name: "PPR Pipes & Fittings",
     description: "High-quality piping solutions",
-    image:
-      "/attached_assets/huaye_1753710378142.jpg",
+    image: "/attached_assets/huaye_1753710378142.jpg",
   },
   {
     name: "Industrial Pipes",
     description: "Heavy-duty applications",
-    image:
-      "/attached_assets/slide 10_1753710378145.jpg",
+    image: "/attached_assets/slide 10_1753710378145.jpg",
   },
   {
     name: "Pipe Systems",
     description: "Complete piping systems",
-    image:
-      "/attached_assets/slide 11_1753710378146.jpg",
+    image: "/attached_assets/slide 11_1753710378146.jpg",
   },
   {
     name: "Quality Materials",
     description: "Premium pipe products",
-    image:
-      "/attached_assets/slide 3_1753710378143.jpg",
+    image: "/attached_assets/slide 3_1753710378143.jpg",
   },
 ];
 
@@ -131,26 +121,22 @@ const eiderProducts = [
   {
     name: "EIDER PPR Systems",
     description: "Precision piping solutions",
-    image:
-      "/attached_assets/eider_1753710378142.jpg",
+    image: "/attached_assets/eider_1753710378142.jpg",
   },
   {
     name: "Green Pipes",
     description: "Eco-friendly pipe systems",
-    image:
-      "/attached_assets/slide 4_1753710378144.jpg",
+    image: "/attached_assets/slide 4_1753710378144.jpg",
   },
   {
     name: "EIDER Branded Pipes",
     description: "High-quality branded products",
-    image:
-      "/attached_assets/slide 9_1753710378145.jpg",
+    image: "/attached_assets/slide 9_1753710378145.jpg",
   },
   {
     name: "Warehouse Stock",
     description: "Ready-to-ship inventory",
-    image:
-      "/attached_assets/slide 2_1753710378143.jpg",
+    image: "/attached_assets/slide 2_1753710378143.jpg",
   },
 ];
 

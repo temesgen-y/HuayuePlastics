@@ -15,100 +15,140 @@ interface HeroSlide {
 const slides: HeroSlide[] = [
   {
     id: 1,
-    image: "/attached_assets/Slide1_1753710378148.jpg",
+    image: "/attached_assets/slide 2.jpg",
     headline: "HUAYUE PLASTICS INDUSTRY",
     subtext: "Leading manufacturer of premium plastic pipes and industrial solutions",
     ctaText: "View Products",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 2,
-    image: "/attached_assets/slide 2_1753710378143.jpg",
+    image: "/attached_assets/slide 3.jpg",
     headline: "WAREHOUSE EXCELLENCE",
     subtext: "Organized inventory management ensuring quality and quick delivery",
     ctaText: "Learn More",
-    ctaLink: "/about"
+    ctaLink: "/about",
   },
   {
     id: 3,
-    image: "/attached_assets/slide 3_1753710378143.jpg",
+    image: "/attached_assets/slide 4.jpg",
     headline: "PRECISION MANUFACTURING",
     subtext: "Advanced white PPR pipes manufactured to highest quality standards",
     ctaText: "Explore Products",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 4,
-    image: "/attached_assets/slide 4_1753710378144.jpg",
+    image: "/attached_assets/slide -5.jpg",
     headline: "PREMIUM EIDER PIPES",
     subtext: "High-performance green PPR piping systems for professional applications",
     ctaText: "View Catalog",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 5,
-    image: "/attached_assets/slide 5_1753710378144.jpg",
+    image: "/attached_assets/slide -6.jpg",
     headline: "SHOWROOM FACILITY",
     subtext: "Modern display center showcasing our complete product range",
     ctaText: "Visit Showroom",
-    ctaLink: "/about"
+    ctaLink: "/about",
   },
   {
     id: 6,
-    image: "/attached_assets/slide 6_1753710378144.jpg",
+    image: "/attached_assets/slide -7.jpg",
     headline: "COMPREHENSIVE INVENTORY",
     subtext: "Extensive stock of pipes and fittings ready for immediate delivery",
     ctaText: "Check Stock",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 7,
-    image: "/attached_assets/slide 7_1753710378144.jpg",
+    image: "/attached_assets/slide -8.jpg",
     headline: "QUALITY CONTROL",
     subtext: "Every pipe marked with specifications ensuring consistent performance",
     ctaText: "Quality Standards",
-    ctaLink: "/about"
+    ctaLink: "/about",
   },
   {
     id: 8,
-    image: "/attached_assets/slide 8_1753710378145.jpg",
+    image: "/attached_assets/slide -9.jpg",
     headline: "PROFESSIONAL DISPLAY",
     subtext: "Modern showroom featuring EIDER and HUAYUE branded products",
     ctaText: "Learn About Us",
-    ctaLink: "/about"
+    ctaLink: "/about",
   },
   {
     id: 9,
-    image: "/attached_assets/slide 9_1753710378145.jpg",
+    image: "/attached_assets/slide -10.jpg",
     headline: "EIDER BRAND EXCELLENCE",
     subtext: "Premium branded PPR pipes with guaranteed quality certification",
     ctaText: "EIDER Products",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 10,
-    image: "/attached_assets/slide 10_1753710378145.jpg",
+    image: "/attached_assets/slide -11.jpg",
     headline: "DETAILED SPECIFICATIONS",
     subtext: "Every product clearly marked with technical details and standards",
     ctaText: "View Specs",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 11,
-    image: "/attached_assets/slide 11_1753710378146.jpg",
+    image: "/attached_assets/slide -12.jpg",
     headline: "INDUSTRIAL GRADE PIPES",
     subtext: "Heavy-duty piping solutions for demanding industrial applications",
     ctaText: "Industrial Solutions",
-    ctaLink: "/products"
+    ctaLink: "/products",
   },
   {
     id: 12,
-    image: "/attached_assets/slide 12_1753710378146.jpg",
+    image: "/attached_assets/slide -13.jpg",
+    headline: "ADVANCED TECHNOLOGY",
+    subtext: "State-of-the-art manufacturing processes ensuring superior quality",
+    ctaText: "Technology",
+    ctaLink: "/about",
+  },
+  {
+    id: 13,
+    image: "/attached_assets/slide -14.jpg",
+    headline: "QUALITY ASSURANCE",
+    subtext: "Rigorous testing and quality control at every stage of production",
+    ctaText: "Quality Control",
+    ctaLink: "/about",
+  },
+  {
+    id: 14,
+    image: "/attached_assets/slide -15.jpg",
+    headline: "PRODUCT EXCELLENCE",
+    subtext: "Premium materials and precision engineering in every product",
+    ctaText: "View Products",
+    ctaLink: "/products",
+  },
+  {
+    id: 15,
+    image: "/attached_assets/slide -16.jpg",
+    headline: "INNOVATION FOCUS",
+    subtext: "Continuous development of new solutions for evolving market needs",
+    ctaText: "Innovation",
+    ctaLink: "/about",
+  },
+  {
+    id: 16,
+    image: "/attached_assets/slide- 17.jpg",
+    headline: "MARKET LEADERSHIP",
+    subtext: "Setting industry standards with reliable and durable products",
+    ctaText: "Leadership",
+    ctaLink: "/about",
+  },
+  {
+    id: 17,
+    image: "/attached_assets/slide -18.jpg",
     headline: "GLOBAL REACH",
     subtext: "Serving customers worldwide with reliable plastic piping solutions",
     ctaText: "Contact Us",
-    ctaLink: "/contact"
-  }
+    ctaLink: "/contact",
+  },
 ];
 
 export default function HeroSlider() {
@@ -136,94 +176,83 @@ export default function HeroSlider() {
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
+    setIsAutoPlay(false);
   };
 
   return (
-    <div 
-      className="relative w-full h-screen overflow-hidden"
-      onMouseEnter={() => setIsAutoPlay(false)}
-      onMouseLeave={() => setIsAutoPlay(true)}
-      role="region"
-      aria-label="Hero image carousel"
-    >
+    <div className="relative w-full h-screen overflow-hidden">
       {/* Slides */}
-      {slides.map((slide, index) => (
-        <div
-          key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentSlide ? "opacity-100" : "opacity-0"
-          }`}
-          aria-hidden={index !== currentSlide}
-        >
-          {/* Background Image */}
+      <div className="relative w-full h-full">
+        {slides.map((slide, index) => (
           <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${slide.image})` }}
-            role="img"
-            aria-label={slide.headline}
-          />
-          
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-40" />
-          
-          {/* Content */}
-          <div className="relative z-10 flex items-center justify-center h-full">
-            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                {slide.headline}
-              </h1>
-              <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-                {slide.subtext}
-              </p>
-              <Link href={slide.ctaLink}>
-                <Button 
-                  size="lg" 
-                  className="bg-primary-green hover:bg-primary-green/90 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105"
-                >
-                  {slide.ctaText}
-                </Button>
-              </Link>
+            key={slide.id}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === currentSlide ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            {/* Background Image */}
+            <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: `url(${slide.image})` }}
+            />
+            
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/40" />
+            
+            {/* Content */}
+            <div className="relative h-full flex items-center justify-center">
+              <div className="text-center text-white max-w-4xl px-4">
+                <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                  {slide.headline}
+                </h1>
+                <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
+                  {slide.subtext}
+                </p>
+                <Link href={slide.ctaLink}>
+                  <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
+                    {slide.ctaText}
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
-
-      {/* Navigation Arrows */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-all duration-300"
-        aria-label="Previous slide"
-      >
-        <ChevronLeft className="w-6 h-6" />
-      </button>
-      
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-all duration-300"
-        aria-label="Next slide"
-      >
-        <ChevronRight className="w-6 h-6" />
-      </button>
-
-      {/* Dot Indicators */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 flex space-x-2">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide 
-                ? "bg-primary-green scale-125" 
-                : "bg-white/50 hover:bg-white/75"
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
         ))}
       </div>
 
-      {/* Slide Counter */}
-      <div className="absolute bottom-6 right-6 z-20 bg-black/30 text-white px-3 py-1 rounded-full text-sm">
-        {currentSlide + 1} / {slides.length}
+      {/* Navigation Arrows */}
+      <Button
+        variant="ghost"
+        size="icon"
+        className="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:bg-white/20 z-10"
+        onClick={prevSlide}
+        onMouseEnter={() => setIsAutoPlay(false)}
+        onMouseLeave={() => setIsAutoPlay(true)}
+      >
+        <ChevronLeft className="h-8 w-8" />
+      </Button>
+      
+      <Button
+        variant="ghost"
+        size="icon"
+        className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:bg-white/20 z-10"
+        onClick={nextSlide}
+        onMouseEnter={() => setIsAutoPlay(false)}
+        onMouseLeave={() => setIsAutoPlay(true)}
+      >
+        <ChevronRight className="h-8 w-8" />
+      </Button>
+
+      {/* Dots Navigation */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 z-10">
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            className={`w-3 h-3 rounded-full transition-colors ${
+              index === currentSlide ? "bg-white" : "bg-white/50"
+            }`}
+            onClick={() => goToSlide(index)}
+          />
+        ))}
       </div>
     </div>
   );
