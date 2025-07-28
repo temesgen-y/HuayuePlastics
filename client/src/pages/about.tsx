@@ -1,6 +1,21 @@
 import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, MapPin, Users, Award, Globe, Target, Eye, Heart, ArrowRight, Star, Lightbulb, Shield, Leaf, X } from "lucide-react";
+import {
+  CheckCircle,
+  MapPin,
+  Users,
+  Award,
+  Globe,
+  Target,
+  Eye,
+  Heart,
+  ArrowRight,
+  Star,
+  Lightbulb,
+  Shield,
+  Leaf,
+  X,
+} from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function AboutPage() {
@@ -32,56 +47,65 @@ export default function AboutPage() {
       id: 1,
       title: "50 Year Warranty",
       description: "PP-R Built to Last, Guaranteed!",
-      image: "https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 2,
       title: "Sole Authorized Distributor",
       description: "WHEM Trading PLC Certificate",
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 3,
       title: "ECAE Test Report - 63mm",
       description: "PPR Pipe Testing Results",
-      image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 4,
       title: "ISO 9001:2015",
       description: "Quality Management System",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 5,
       title: "ISO 14001",
       description: "Environmental Management",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 6,
       title: "ISO 13485",
       description: "Medical Devices Quality",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 7,
       title: "CE Marking",
       description: "European Conformity",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 8,
       title: "FDA Approval",
       description: "Food Grade Materials",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
+      image:
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
     },
     {
       id: 9,
       title: "GMP Certificate",
       description: "Good Manufacturing Practice",
-      image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80"
-    }
+      image:
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80",
+    },
   ];
 
   return (
@@ -140,38 +164,58 @@ export default function AboutPage() {
                     1
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2015 - Company Founded</h4>
-                    <p className="text-neutral-gray">HUAYUE PLASTICS INDUSTRY P.L.C. established in Kombolcha, Ethiopia</p>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">
+                      2015 - Company Founded
+                    </h4>
+                    <p className="text-neutral-gray">
+                      HUAYUE PLASTICS INDUSTRY P.L.C. established in Kombolcha,
+                      Ethiopia
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
                     2
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2017 - EIDER Brand Launch</h4>
-                    <p className="text-neutral-gray">Introduced EIDER precision pipe systems for critical applications</p>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">
+                      2017 - EIDER Brand Launch
+                    </h4>
+                    <p className="text-neutral-gray">
+                      Introduced EIDER precision pipe systems for critical
+                      applications
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
                     3
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2020 - Capacity Expansion</h4>
-                    <p className="text-neutral-gray">Expanded manufacturing capabilities to include 20mm-50mm diameter range</p>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">
+                      2020 - Capacity Expansion
+                    </h4>
+                    <p className="text-neutral-gray">
+                      Expanded manufacturing capabilities to include 20mm-50mm
+                      diameter range
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-primary-green text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">
                     4
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">2023 - Quality Certifications</h4>
-                    <p className="text-neutral-gray">Achieved ISO 9001:2015 and multiple international quality standards</p>
+                    <h4 className="text-lg font-semibold text-neutral-dark mb-1">
+                      2023 - Quality Certifications
+                    </h4>
+                    <p className="text-neutral-gray">
+                      Achieved ISO 9001:2015 and multiple international quality
+                      standards
+                    </p>
                   </div>
                 </div>
               </div>
@@ -182,10 +226,6 @@ export default function AboutPage() {
                 alt="Modern plastic manufacturing facility"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
-              <div className="absolute -bottom-6 -right-6 bg-primary-green text-white p-6 rounded-lg shadow-xl">
-                <div className="text-3xl font-bold">25+</div>
-                <div className="text-sm">Years of Excellence</div>
-              </div>
             </div>
           </div>
         </div>
@@ -205,7 +245,9 @@ export default function AboutPage() {
                   Mission
                 </h3>
                 <p className="text-neutral-gray leading-relaxed">
-                  To deliver innovative, high-quality industrial pipe solutions that enable our customers to build safe, efficient, and sustainable infrastructure for global markets.
+                  To deliver innovative, high-quality industrial pipe solutions
+                  that enable our customers to build safe, efficient, and
+                  sustainable infrastructure for global markets.
                 </p>
               </CardContent>
             </Card>
@@ -220,7 +262,9 @@ export default function AboutPage() {
                   Vision
                 </h3>
                 <p className="text-neutral-gray leading-relaxed">
-                  To be the leading industrial pipe manufacturer globally, recognized for innovation, sustainability, and unwavering commitment to customer success. Look forward to the future.
+                  To be the leading industrial pipe manufacturer globally,
+                  recognized for innovation, sustainability, and unwavering
+                  commitment to customer success. Look forward to the future.
                 </p>
               </CardContent>
             </Card>
@@ -235,7 +279,8 @@ export default function AboutPage() {
                   Values
                 </h3>
                 <p className="text-neutral-gray leading-relaxed">
-                  Quality, integrity, innovation, and customer-centricity guide everything we do. We believe in building lasting partnerships.
+                  Quality, integrity, innovation, and customer-centricity guide
+                  everything we do. We believe in building lasting partnerships.
                 </p>
               </CardContent>
             </Card>
@@ -251,7 +296,8 @@ export default function AboutPage() {
               Our Product Lines
             </h2>
             <p className="text-lg text-neutral-gray max-w-4xl mx-auto">
-              Discover our comprehensive range of industrial piping solutions designed for various applications and industries.
+              Discover our comprehensive range of industrial piping solutions
+              designed for various applications and industries.
             </p>
           </div>
 
@@ -267,29 +313,40 @@ export default function AboutPage() {
                   />
                   <div className="flex items-center mb-4">
                     <CheckCircle className="w-6 h-6 text-primary-green mr-3" />
-                    <h3 className="text-2xl font-bold text-neutral-dark">HUAYUE</h3>
+                    <h3 className="text-2xl font-bold text-neutral-dark">
+                      HUAYUE
+                    </h3>
                   </div>
                   <p className="text-neutral-gray mb-6">
-                    Heavy-duty steel pipes and fittings designed for extreme industrial conditions.
+                    Heavy-duty steel pipes and fittings designed for extreme
+                    industrial conditions.
                   </p>
                 </div>
 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">High-pressure applications</span>
+                    <span className="text-neutral-dark">
+                      High-pressure applications
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">Corrosion resistant coating</span>
+                    <span className="text-neutral-dark">
+                      Corrosion resistant coating
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">20-50mm diameter range</span>
+                    <span className="text-neutral-dark">
+                      20-50mm diameter range
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">PN16 & PN20 pressure ratings</span>
+                    <span className="text-neutral-dark">
+                      PN16 & PN20 pressure ratings
+                    </span>
                   </div>
                 </div>
 
@@ -311,29 +368,40 @@ export default function AboutPage() {
                   />
                   <div className="flex items-center mb-4">
                     <CheckCircle className="w-6 h-6 text-primary-green mr-3" />
-                    <h3 className="text-2xl font-bold text-neutral-dark">EIDER</h3>
+                    <h3 className="text-2xl font-bold text-neutral-dark">
+                      EIDER
+                    </h3>
                   </div>
                   <p className="text-neutral-gray mb-6">
-                    Precision-engineered piping systems for pharmaceutical and clean energy industries.
+                    Precision-engineered piping systems for pharmaceutical and
+                    clean energy industries.
                   </p>
                 </div>
 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">Pharmaceutical-grade materials</span>
+                    <span className="text-neutral-dark">
+                      Pharmaceutical-grade materials
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">Food-safe coatings</span>
+                    <span className="text-neutral-dark">
+                      Food-safe coatings
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">FDA approved components</span>
+                    <span className="text-neutral-dark">
+                      FDA approved components
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                    <span className="text-neutral-dark">Clean room certified</span>
+                    <span className="text-neutral-dark">
+                      Clean room certified
+                    </span>
                   </div>
                 </div>
 
@@ -352,7 +420,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-lg text-neutral-gray max-w-4xl mx-auto">
-              Both product lines meet international quality standards and are manufactured in our state-of-the-art facility in Kombolcha, Ethiopia
+              Both product lines meet international quality standards and are
+              manufactured in our state-of-the-art facility in Kombolcha,
+              Ethiopia
             </p>
           </div>
         </div>
@@ -380,7 +450,8 @@ export default function AboutPage() {
                 Excellence
               </h3>
               <p className="text-neutral-gray leading-relaxed">
-                We strive for excellence in everything we do, from product quality to customer service.
+                We strive for excellence in everything we do, from product
+                quality to customer service.
               </p>
             </div>
 
@@ -393,7 +464,8 @@ export default function AboutPage() {
                 Innovation
               </h3>
               <p className="text-neutral-gray leading-relaxed">
-                We continuously seek new ways to improve our products and processes.
+                We continuously seek new ways to improve our products and
+                processes.
               </p>
             </div>
 
@@ -406,7 +478,8 @@ export default function AboutPage() {
                 Integrity
               </h3>
               <p className="text-neutral-gray leading-relaxed">
-                We conduct business ethically and transparently, building trust with all stakeholders.
+                We conduct business ethically and transparently, building trust
+                with all stakeholders.
               </p>
             </div>
 
@@ -419,7 +492,8 @@ export default function AboutPage() {
                 Sustainability
               </h3>
               <p className="text-neutral-gray leading-relaxed">
-                We are committed to environmentally responsible manufacturing and operations.
+                We are committed to environmentally responsible manufacturing
+                and operations.
               </p>
             </div>
           </div>
@@ -440,8 +514,8 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {certifications.map((cert) => (
-              <Card 
-                key={cert.id} 
+              <Card
+                key={cert.id}
                 className="hover:shadow-xl transition-shadow duration-200 cursor-pointer"
                 onClick={() => setModalImage(cert.image)}
               >
@@ -497,7 +571,8 @@ export default function AboutPage() {
                 Chief Executive Officer
               </p>
               <p className="text-neutral-gray leading-relaxed">
-                25+ years in industrial manufacturing and global business development.
+                25+ years in industrial manufacturing and global business
+                development.
               </p>
             </div>
 
@@ -519,7 +594,8 @@ export default function AboutPage() {
                 Chief Technology Officer
               </p>
               <p className="text-neutral-gray leading-relaxed">
-                Expert in materials engineering and product innovation with 20+ years experience.
+                Expert in materials engineering and product innovation with 20+
+                years experience.
               </p>
             </div>
 
@@ -541,15 +617,13 @@ export default function AboutPage() {
                 Chief Operations Officer
               </p>
               <p className="text-neutral-gray leading-relaxed">
-                Operations excellence and supply chain optimization specialist with global expertise.
+                Operations excellence and supply chain optimization specialist
+                with global expertise.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-
-
 
       {/* Sustainability Commitment */}
       <section className="py-20 bg-gray-50">
@@ -612,11 +686,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-
-
       {/* Image Modal */}
       {modalImage && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
           onClick={() => setModalImage(null)}
         >

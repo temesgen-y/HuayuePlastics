@@ -857,67 +857,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-neutral-dark mb-6">
-                About Huayue Group
-              </h2>
-              <p className="text-lg text-neutral-gray mb-6 leading-relaxed">
-                Founded in 1998, Huayue Group has grown to become a leading
-                Asian plastic packaging manufacturer, specializing in innovative
-                packaging solutions for multiple industries worldwide.
-              </p>
-              <p className="text-lg text-neutral-gray mb-8 leading-relaxed">
-                With 4 self-owned factories across China and Cambodia, we serve
-                over 50 countries and maintain strong partnerships with global
-                logistics companies including SF Express, FedEx, UPS, and Amazon
-                sellers.
-              </p>
 
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    ISO9001, ISO14001, ISO13485 Certified
-                  </span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    GMP, BRC, GSV/C-TPAT Compliant
-                  </span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    Global Food Standard Certification
-                  </span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="text-accent-green text-xl mr-3" />
-                  <span className="text-neutral-dark font-medium">
-                    Biodegradable Packaging Solutions
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Modern plastic manufacturing facility"
-                className="rounded-xl shadow-lg w-full h-auto"
-              />
-              <div className="absolute -bottom-6 -right-6 bg-primary-green text-white p-6 rounded-lg shadow-xl">
-                <div className="text-3xl font-bold">70%</div>
-                <div className="text-sm">Export Overseas</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Products Overview */}
       <section className="py-20 bg-gray-50">
