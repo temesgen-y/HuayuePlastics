@@ -126,7 +126,7 @@ export default function HomePage() {
             <div>
               <div className="relative">
                 <img
-                  src="/attached_assets/slide 8_1753710378145.jpg"
+                  src="/attached_assets/slide -8.jpg"
                   alt="Huayue Plastics Manufacturing Facility"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
@@ -451,7 +451,7 @@ export default function HomePage() {
             <div className="lg:order-last">
               <div className="relative">
                 <img
-                  src="/attached_assets/slide 5_1753710378144.jpg"
+                  src="/attached_assets/slide -12.jpg"
                   alt="Quality Assurance Manufacturing Process"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
@@ -857,8 +857,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-
 
       {/* Products Overview */}
       <section className="py-20 bg-gray-50">

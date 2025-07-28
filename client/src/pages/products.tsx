@@ -89,7 +89,7 @@ const productCategories = [
       "Compostable bags",
       "Eco-friendly options",
     ],
-    image: "/attached_assets/slide-5.jpg",
+    image: "/attached_assets/slide%20-5.jpg",
     category: "biodegradable",
   },
 ];
@@ -103,17 +103,17 @@ const huayueProducts = [
   {
     name: "Industrial Pipes",
     description: "Heavy-duty applications",
-    image: "/attached_assets/slide 10_1753710378145.jpg",
+    image: "/attached_assets/10_1753709644845.jpg",
   },
   {
     name: "Pipe Systems",
     description: "Complete piping systems",
-    image: "/attached_assets/slide 11_1753710378146.jpg",
+    image: "/attached_assets/slide%20-11.jpg",
   },
   {
     name: "Quality Materials",
     description: "Premium pipe products",
-    image: "/attached_assets/slide 3_1753710378143.jpg",
+    image: "/attached_assets/slide%203.jpg",
   },
 ];
 
@@ -126,17 +126,17 @@ const eiderProducts = [
   {
     name: "Green Pipes",
     description: "Eco-friendly pipe systems",
-    image: "/attached_assets/slide 4_1753710378144.jpg",
+    image: "/attached_assets/4_1753709644843.jpg",
   },
   {
     name: "EIDER Branded Pipes",
     description: "High-quality branded products",
-    image: "/attached_assets/slide 9_1753710378145.jpg",
+    image: "/attached_assets/9_1753709644845.jpg",
   },
   {
     name: "Warehouse Stock",
     description: "Ready-to-ship inventory",
-    image: "/attached_assets/slide 2_1753710378143.jpg",
+    image: "/attached_assets/slide%202.jpg",
   },
 ];
 
@@ -194,7 +194,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="/attached_assets/slide 4_1753710378144.jpg"
+                  src="/attached_assets/slide%204.jpg"
                   alt="Industrial Plastic Pipes"
                   className="w-full h-48 object-cover"
                 />
@@ -212,7 +212,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="/attached_assets/slide 6_1753710378144.jpg"
+                  src="/attached_assets/6_1753709644844.jpg"
                   alt="Specialized Fittings"
                   className="w-full h-48 object-cover"
                 />
@@ -263,7 +263,7 @@ export default function ProductsPage() {
             <div className="text-center">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
                 <img
-                  src="/attached_assets/slide 7_1753710378144.jpg"
+                  src="/attached_assets/7_1753709644844.jpg"
                   alt="Welded Plastic Tubes"
                   className="w-full h-48 object-cover"
                 />
