@@ -9,6 +9,8 @@ const huayueLogoImg = "/attached_assets/huayu%20logo_1753699932333.PNG";
 const eiderLogoImg = "/attached_assets/Eider%20Logo_1753699951877.PNG";
 const huayueNewLogoImg = "/attached_assets/huayu%20logo_1753700294403.PNG";
 const eiderNewLogoImg = "/attached_assets/Eider%20Logo_1753700658123.PNG";
+const huayueLatestLogoImg = "/attached_assets/huayu%20logo_1753700785451.PNG";
+const eiderLatestLogoImg = "/attached_assets/Eider%20Logo_1753700793948.PNG";
 
 const productCategories = [
   {
@@ -277,7 +279,7 @@ export default function ProductsPage() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                src={huayueNewLogoImg}
+                src={huayueLatestLogoImg}
                 alt="HUAYUE Brand Logo"
                 className="h-24 w-auto mx-auto"
               />
@@ -299,7 +301,7 @@ export default function ProductsPage() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                src={eiderNewLogoImg}
+                src={eiderLatestLogoImg}
                 alt="EIDER Brand Logo"
                 className="h-24 w-auto mx-auto"
               />
