@@ -11,6 +11,7 @@ const huayueNewLogoImg = "/attached_assets/huayu%20logo_1753700294403.PNG";
 const eiderNewLogoImg = "/attached_assets/Eider%20Logo_1753700658123.PNG";
 const huayueLatestLogoImg = "/attached_assets/huayu%20logo_1753700785451.PNG";
 const eiderLatestLogoImg = "/attached_assets/Eider%20Logo_1753700793948.PNG";
+const huayueFinalLogoImg = "/attached_assets/huayu%20logo_1753701062451.PNG";
 
 const productCategories = [
   {
@@ -276,20 +277,25 @@ export default function ProductsPage() {
       {/* HUAYUE Brand Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="mb-8">
+          <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
+            {/* Logo */}
+            <div className="mb-12">
               <img
-                src={huayueLatestLogoImg}
+                src={huayueFinalLogoImg}
                 alt="HUAYUE Brand Logo"
-                className="h-24 w-auto mx-auto"
+                className="h-32 w-auto mx-auto"
               />
             </div>
+            
+            {/* Description Box */}
             <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-neutral-gray leading-relaxed">
-                Committed to quality and reliability, EIDER and HUAYUE PP-R products comply with ISO 15874 
-                standards and are manufactured using high-quality Korean-origin PP-R resin, ensuring 
-                superior strength, durability, and safety for both hot and cold water applications.
-              </p>
+              <div className="bg-green-50 rounded-xl p-8 md:p-12 shadow-sm border border-green-100">
+                <p className="text-lg md:text-xl text-gray-800 leading-relaxed font-medium">
+                  Committed to quality and reliability, EIDER and HUAYUE PP-R products comply with ISO 15874 standards 
+                  and are manufactured using high-quality Korean-origin PP-R resin, ensuring 
+                  superior strength, durability, and safety for both hot and cold water applications.
+                </p>
+              </div>
             </div>
           </div>
         </div>
