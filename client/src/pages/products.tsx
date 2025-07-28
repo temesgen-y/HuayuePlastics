@@ -211,27 +211,78 @@ export default function ProductsPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {huayueProducts.map((product, index) => (
-              <Card
-                key={index}
-                className="hover:shadow-lg transition-shadow duration-200"
-              >
+          <div className="space-y-8">
+            {/* Row 1 - Zip Lock Bags */}
+            <div className="flex justify-center">
+              <Card className="hover:shadow-lg transition-shadow duration-200 max-w-sm">
                 <img
-                  src={product.image}
-                  alt={product.name}
+                  src={huayueProducts[0].image}
+                  alt={huayueProducts[0].name}
                   className="w-full h-48 object-cover rounded-t-lg"
                 />
                 <CardContent className="p-4">
                   <h4 className="font-semibold text-neutral-dark mb-2">
-                    {product.name}
+                    {huayueProducts[0].name}
                   </h4>
                   <p className="text-sm text-neutral-gray">
-                    {product.description}
+                    {huayueProducts[0].description}
                   </p>
                 </CardContent>
               </Card>
-            ))}
+            </div>
+
+            {/* Row 2 - T-Shirt Bags and Medical Bags */}
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <Card className="hover:shadow-lg transition-shadow duration-200">
+                <img
+                  src={huayueProducts[1].image}
+                  alt={huayueProducts[1].name}
+                  className="w-full h-48 object-cover rounded-t-lg"
+                />
+                <CardContent className="p-4">
+                  <h4 className="font-semibold text-neutral-dark mb-2">
+                    {huayueProducts[1].name}
+                  </h4>
+                  <p className="text-sm text-neutral-gray">
+                    {huayueProducts[1].description}
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="hover:shadow-lg transition-shadow duration-200">
+                <img
+                  src={huayueProducts[2].image}
+                  alt={huayueProducts[2].name}
+                  className="w-full h-48 object-cover rounded-t-lg"
+                />
+                <CardContent className="p-4">
+                  <h4 className="font-semibold text-neutral-dark mb-2">
+                    {huayueProducts[2].name}
+                  </h4>
+                  <p className="text-sm text-neutral-gray">
+                    {huayueProducts[2].description}
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Row 3 - Express Bags */}
+            <div className="flex justify-center">
+              <Card className="hover:shadow-lg transition-shadow duration-200 max-w-sm">
+                <img
+                  src={huayueProducts[3].image}
+                  alt={huayueProducts[3].name}
+                  className="w-full h-48 object-cover rounded-t-lg"
+                />
+                <CardContent className="p-4">
+                  <h4 className="font-semibold text-neutral-dark mb-2">
+                    {huayueProducts[3].name}
+                  </h4>
+                  <p className="text-sm text-neutral-gray">
+                    {huayueProducts[3].description}
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
