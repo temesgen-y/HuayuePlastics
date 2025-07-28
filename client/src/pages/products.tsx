@@ -2,7 +2,11 @@ import Layout from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import { Heart, Truck, Utensils, Home, ShoppingCart, Leaf } from "lucide-react";
+import { Heart, Truck, Utensils, Home, ShoppingCart, Leaf, ChevronDown } from "lucide-react";
+import { useState } from "react";
+// Import logo images
+const huayueLogoImg = "/attached_assets/huayu logo_1753699932333.PNG";
+const eiderLogoImg = "/attached_assets/Eider Logo_1753699951877.PNG";
 
 const productCategories = [
   {
@@ -102,6 +106,12 @@ const eiderProducts = [
 ];
 
 export default function ProductsPage() {
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
+  const toggleDropdown = (brand: string) => {
+    setActiveDropdown(activeDropdown === brand ? null : brand);
+  };
+
   return (
     <Layout 
       title="Products - Huayue Plastics Industry"
@@ -116,6 +126,146 @@ export default function ProductsPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Comprehensive plastic packaging solutions across multiple industries with focus on quality, sustainability, and innovation.
           </p>
+        </div>
+      </section>
+
+      {/* Brand Logos with Dropdowns */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
+              Our Product Brands
+            </h2>
+            <p className="text-lg text-neutral-gray">
+              Explore our specialized product lines designed for different applications
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* HUAYUE Brand */}
+            <div className="relative">
+              <div 
+                className="bg-white rounded-xl shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow duration-300"
+                onClick={() => toggleDropdown('huayue')}
+              >
+                <div className="text-center">
+                  <div className="mb-6">
+                    <img
+                      src={huayueLogoImg}
+                      alt="HUAYUE Brand Logo"
+                      className="h-20 w-auto mx-auto"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-neutral-dark mr-2">
+                      HUAYUE Series
+                    </h3>
+                    <ChevronDown 
+                      className={`w-5 h-5 text-neutral-gray transition-transform duration-200 ${
+                        activeDropdown === 'huayue' ? 'rotate-180' : ''
+                      }`} 
+                    />
+                  </div>
+                  <p className="text-neutral-gray mt-2">
+                    High-performance industrial solutions
+                  </p>
+                </div>
+              </div>
+
+              {/* HUAYUE Dropdown */}
+              {activeDropdown === 'huayue' && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-200 z-10">
+                  <div className="p-6">
+                    <div className="grid gap-4">
+                      {huayueProducts.map((product, index) => (
+                        <div key={index} className="flex items-center p-3 hover:bg-gray-50 rounded-lg transition-colors">
+                          <img
+                            src={product.image}
+                            alt={product.name}
+                            className="w-16 h-12 object-cover rounded mr-4"
+                          />
+                          <div>
+                            <h4 className="font-semibold text-neutral-dark">{product.name}</h4>
+                            <p className="text-sm text-neutral-gray">{product.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="mt-4">
+                      <Button 
+                        asChild 
+                        className="w-full bg-primary-green hover:bg-primary-green/90 text-white"
+                      >
+                        <Link href="/products?brand=huayue">View All HUAYUE Products</Link>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* EIDER Brand */}
+            <div className="relative">
+              <div 
+                className="bg-white rounded-xl shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow duration-300"
+                onClick={() => toggleDropdown('eider')}
+              >
+                <div className="text-center">
+                  <div className="mb-6">
+                    <img
+                      src={eiderLogoImg}
+                      alt="EIDER Brand Logo"
+                      className="h-20 w-auto mx-auto"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-neutral-dark mr-2">
+                      EIDER Series
+                    </h3>
+                    <ChevronDown 
+                      className={`w-5 h-5 text-neutral-gray transition-transform duration-200 ${
+                        activeDropdown === 'eider' ? 'rotate-180' : ''
+                      }`} 
+                    />
+                  </div>
+                  <p className="text-neutral-gray mt-2">
+                    Eco-friendly sustainable solutions
+                  </p>
+                </div>
+              </div>
+
+              {/* EIDER Dropdown */}
+              {activeDropdown === 'eider' && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-200 z-10">
+                  <div className="p-6">
+                    <div className="grid gap-4">
+                      {eiderProducts.map((product, index) => (
+                        <div key={index} className="flex items-center p-3 hover:bg-gray-50 rounded-lg transition-colors">
+                          <img
+                            src={product.image}
+                            alt={product.name}
+                            className="w-16 h-12 object-cover rounded mr-4"
+                          />
+                          <div>
+                            <h4 className="font-semibold text-neutral-dark">{product.name}</h4>
+                            <p className="text-sm text-neutral-gray">{product.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="mt-4">
+                      <Button 
+                        asChild 
+                        className="w-full bg-primary-green hover:bg-primary-green/90 text-white"
+                      >
+                        <Link href="/products?brand=eider">View All EIDER Products</Link>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       </section>
 
