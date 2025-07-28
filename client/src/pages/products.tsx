@@ -196,56 +196,7 @@ export default function ProductsPage() {
 
 
 
-      {/* Product Categories */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-neutral-dark mb-4">
-              Industry Solutions
-            </h2>
-            <p className="text-lg text-neutral-gray max-w-2xl mx-auto">
-              Specialized packaging solutions designed for specific industry
-              requirements and applications.
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {productCategories.map((category, index) => {
-              const IconComponent = category.icon;
-              return (
-                <Card
-                  key={index}
-                  className="hover:shadow-xl transition-shadow duration-200"
-                >
-                  <CardContent className="p-8">
-                    <div className="bg-primary-green rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                      <IconComponent className="text-white text-2xl" />
-                    </div>
-                    <h3 className="text-xl font-semibold text-neutral-dark mb-4">
-                      {category.title}
-                    </h3>
-                    <p className="text-neutral-gray mb-4">
-                      {category.description}
-                    </p>
-                    <ul className="text-neutral-gray space-y-2 mb-6 text-sm">
-                      {category.products.map((product, idx) => (
-                        <li key={idx}>• {product}</li>
-                      ))}
-                    </ul>
-                    <Button
-                      asChild
-                      variant="outline"
-                      className="border-primary-green text-primary-green hover:bg-primary-green hover:text-white"
-                    >
-                      <Link href="/contact">Request Quote</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
       {/* Huayue Brand Products */}
       <section className="py-20 bg-gray-50">
