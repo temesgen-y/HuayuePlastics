@@ -293,7 +293,84 @@ export default function ProductsPage() {
         </div>
       </section>
 
+      {/* HUAYUE Brand Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Logo and Quality Statement */}
+          <div className="text-center mb-16">
+            <div className="mb-8">
+              <img
+                src={huayueNewestLogoImg}
+                alt="HUAYUE Brand Logo"
+                className="h-20 w-auto mx-auto"
+              />
+            </div>
+            <div className="max-w-4xl mx-auto mb-16">
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Committed to quality and reliability, EIDER and HUAYUE PP-R products comply with ISO 15874 
+                standards and are manufactured using high-quality Korean-origin PP-R resin, ensuring 
+                superior strength, durability, and safety for both hot and cold water applications
+              </p>
+            </div>
+          </div>
 
+          {/* Our Product Range */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-4">Our Product Range</h2>
+            <p className="text-lg text-gray-600">
+              Explore our comprehensive range of industrial piping solutions
+            </p>
+          </div>
+
+          {/* Product Categories Grid */}
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Industrial Plastic Pipes */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Industrial Plastic Pipes"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">Industrial Plastic Pipes</h3>
+              <p className="text-gray-600">
+                High-grade HUAYUE PP-R pipes and fittings for industrial applications
+              </p>
+            </div>
+
+            {/* Specialized Fittings */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="Specialized Fittings"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">Specialized Fittings</h3>
+              <p className="text-gray-600">
+                Custom fittings for complex industrial systems
+              </p>
+            </div>
+
+            {/* High-Pressure Systems */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-6">
+                <img
+                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250"
+                  alt="High-Pressure Systems"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-dark mb-3">High-Pressure Systems</h3>
+              <p className="text-gray-600">
+                Pipes designed for extreme pressure environments
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* EIDER Brand Section */}
       <section className="py-20 bg-gray-50">
