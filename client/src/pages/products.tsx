@@ -9,9 +9,7 @@ import {
   Home,
   ShoppingCart,
   Leaf,
-  ChevronDown,
 } from "lucide-react";
-import { useState } from "react";
 // Import logo images
 const huayueLogoImg = "/attached_assets/huayu%20logo_1753699932333.PNG";
 const eiderLogoImg = "/attached_assets/Eider%20Logo_1753699951877.PNG";
@@ -164,11 +162,6 @@ const eiderProducts = [
 ];
 
 export default function ProductsPage() {
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-
-  const toggleDropdown = (brand: string) => {
-    setActiveDropdown(activeDropdown === brand ? null : brand);
-  };
 
   return (
     <Layout
