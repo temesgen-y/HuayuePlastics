@@ -8,7 +8,6 @@ import { dirname } from "path";
 import { storage } from "./storage";
 import { registerRoutes } from "./routes";
 
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -27,7 +26,7 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie: {
-      secure: false, // Set to true in production with HTTPS
+      secure: process.env.NODE_ENV === "production", // Set to true in production with HTTPS
       maxAge: 24 * 60 * 60 * 1000 // 24 hours
     }
   })
@@ -84,7 +83,11 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../dist/public/index.html"));
 });
 
-// Start server with Windows-compatible settings
-app.listen(PORT, "127.0.0.1", () => {
-  console.log(`[express] serving on port ${PORT}`);
-});
+// Start server - compatible with both local and Vercel deployment
+if (process.env.NODE_ENV !== "production" || process.env.VERCEL !== "1") {
+  app.listen(PORT, () => {
+    console.log(`[express] serving on port ${PORT}`);
+  });
+}
+
+export default app;
