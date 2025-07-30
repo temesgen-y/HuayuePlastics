@@ -78,6 +78,9 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../dist/public/index.html"));
 });
 
+// Serve attached_assets from /attached_assets
+app.use('/attached_assets', express.static(path.join(__dirname, '../attached_assets')));
+
 // Error handling middleware
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
   console.error('Error:', err);
