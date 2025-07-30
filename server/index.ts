@@ -4,6 +4,12 @@ import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import { storage } from "./storage";
 import { registerRoutes } from "./routes";
+import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
@@ -65,6 +71,12 @@ passport.deserializeUser(async (id: number, done) => {
 
 // Routes
 registerRoutes(app);
+
+// After all API routes, but before error handling middleware:
+app.use(express.static(path.join(__dirname, "../dist/public")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../dist/public/index.html"));
+});
 
 // Error handling middleware
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
