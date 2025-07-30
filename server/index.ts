@@ -2,14 +2,8 @@ import express from "express";
 import session from "express-session";
 import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
-import path from "path";
-import { fileURLToPath } from "url";
-import { dirname } from "path";
 import { storage } from "./storage";
 import { registerRoutes } from "./routes";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
@@ -18,7 +12,7 @@ const PORT = Number(process.env.PORT) || 5000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Session configuration
+// Session configuration - simplified for serverless
 app.use(
   session({
     store: storage.getSessionStore(),
@@ -26,7 +20,7 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie: {
-      secure: process.env.NODE_ENV === "production", // Set to true in production with HTTPS
+      secure: process.env.NODE_ENV === "production",
       maxAge: 24 * 60 * 60 * 1000 // 24 hours
     }
   })
@@ -72,18 +66,18 @@ passport.deserializeUser(async (id: number, done) => {
 // Routes
 registerRoutes(app);
 
-// Serve static files
-app.use(express.static(path.join(__dirname, "../dist/public")));
-
-// Serve images from attached_assets
-app.use("/attached_assets", express.static(path.join(__dirname, "../attached_assets")));
-
-// Handle client-side routing
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../dist/public/index.html"));
+// Error handling middleware
+app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+  console.error('Error:', err);
+  res.status(500).json({ error: 'Internal server error' });
 });
 
-// Start server - compatible with both local and Vercel deployment
+// Health check endpoint for serverless
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok", timestamp: new Date().toISOString() });
+});
+
+// Start server only in development
 if (process.env.NODE_ENV !== "production" || process.env.VERCEL !== "1") {
   app.listen(PORT, () => {
     console.log(`[express] serving on port ${PORT}`);

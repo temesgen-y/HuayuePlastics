@@ -1,9 +1,8 @@
 import { storage as memoryStorage } from "./db";
 import session from "express-session";
-import MemoryStore from "memorystore";
 
-const MemoryStoreSession = MemoryStore(session);
-
+// Use a simple in-memory store for development, but this won't work well in serverless
+// In production, you should use a proper session store like Redis or database-backed store
 export interface IStorage {
   createContact(data: any): Promise<any>;
   getContacts(): Promise<any[]>;
@@ -15,11 +14,10 @@ export interface IStorage {
 
 export class Storage implements IStorage {
   getSessionStore() {
-    return new MemoryStoreSession({
-      max: 500, // Maximum number of sessions to store
-      ttl: 86400000, // 1 day in milliseconds
-      checkPeriod: 86400000 // prune expired entries every 24h
-    });
+    // For serverless environments, we'll use a simple memory store
+    // but sessions won't persist between function invocations
+    // In production, use Redis or a database-backed session store
+    return new session.MemoryStore();
   }
 
   async getUser(id: number): Promise<any | undefined> {
