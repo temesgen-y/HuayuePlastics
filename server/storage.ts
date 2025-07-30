@@ -1,62 +1,55 @@
-import { users, contacts, type User, type InsertUser, type Contact, type InsertContact } from "@shared/schema";
-import { db } from "./db";
-import { eq, desc } from "drizzle-orm";
+import { storage as memoryStorage } from "./db";
 import session from "express-session";
-import connectPg from "connect-pg-simple";
-import { pool } from "./db";
+import MemoryStore from "memorystore";
 
-const PostgresSessionStore = connectPg(session);
+const MemoryStoreSession = MemoryStore(session);
 
 export interface IStorage {
-  getUser(id: number): Promise<User | undefined>;
-  getUserByUsername(username: string): Promise<User | undefined>;
-  createUser(user: InsertUser): Promise<User>;
-  createContact(contact: InsertContact): Promise<Contact>;
-  getContacts(): Promise<Contact[]>;
+  createContact(data: any): Promise<any>;
+  getContacts(): Promise<any[]>;
   markContactAsRead(id: number): Promise<void>;
-  sessionStore: any;
+  getUser(id: number): Promise<any | undefined>;
+  getUserByUsername(username: string): Promise<any | undefined>;
+  createUser(insertUser: any): Promise<any>;
 }
 
-export class DatabaseStorage implements IStorage {
-  sessionStore: any;
-
-  constructor() {
-    this.sessionStore = new PostgresSessionStore({ pool, createTableIfMissing: true });
+export class Storage implements IStorage {
+  getSessionStore() {
+    return new MemoryStoreSession({
+      max: 500, // Maximum number of sessions to store
+      ttl: 86400000, // 1 day in milliseconds
+      checkPeriod: 86400000 // prune expired entries every 24h
+    });
   }
 
-  async getUser(id: number): Promise<User | undefined> {
-    const [user] = await db.select().from(users).where(eq(users.id, id));
-    return user || undefined;
+  async getUser(id: number): Promise<any | undefined> {
+    return memoryStorage.users.find((user: any) => user.id === id);
   }
 
-  async getUserByUsername(username: string): Promise<User | undefined> {
-    const [user] = await db.select().from(users).where(eq(users.username, username));
-    return user || undefined;
+  async getUserByUsername(username: string): Promise<any | undefined> {
+    return memoryStorage.findUserByUsername(username);
   }
 
-  async createUser(insertUser: InsertUser): Promise<User> {
-    const [user] = await db
-      .insert(users)
-      .values(insertUser as any)
-      .returning();
+  async createUser(insertUser: any): Promise<any> {
+    const user = {
+      id: memoryStorage.users.length + 1,
+      ...insertUser
+    };
+    memoryStorage.users.push(user);
     return user;
   }
 
-  async createContact(insertContact: InsertContact): Promise<Contact> {
-    const [contact] = await db
-      .insert(contacts)
-      .values(insertContact as any)
-      .returning();
-    return contact;
+  async createContact(data: any): Promise<any> {
+    return memoryStorage.createContact(data);
   }
 
-  async getContacts(): Promise<Contact[]> {
-    return await db.select().from(contacts).orderBy(desc(contacts.createdAt));
+  async getContacts(): Promise<any[]> {
+    return memoryStorage.getContacts();
   }
 
   async markContactAsRead(id: number): Promise<void> {
-    await db.update(contacts).set({ isRead: true }).where(eq(contacts.id, id));
+    return memoryStorage.markContactAsRead(id);
   }
 }
 
-export const storage = new DatabaseStorage();
+export const storage = new Storage();
